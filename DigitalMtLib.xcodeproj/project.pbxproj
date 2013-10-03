@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA747D9F0F9514B9006C5449 /* DigitalMtLib_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* DigitalMtLib_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		DC041C3917F97095006E35CD /* DLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DC041C3617F97095006E35CD /* DLog.m */; };
+		DC041C3A17F97095006E35CD /* UIApplication+Dimension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC041C3717F97095006E35CD /* UIApplication+Dimension.m */; };
+		DC041C3B17F97095006E35CD /* UIDevice+machine.m in Sources */ = {isa = PBXBuildFile; fileRef = DC041C3817F97095006E35CD /* UIDevice+machine.m */; };
+		DC041C3F17F970D8006E35CD /* DLog.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C3C17F970D8006E35CD /* DLog.h */; };
+		DC041C4017F970D8006E35CD /* UIApplication+Dimension.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C3D17F970D8006E35CD /* UIApplication+Dimension.h */; };
+		DC041C4117F970D8006E35CD /* UIDevice+machine.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C3E17F970D8006E35CD /* UIDevice+machine.h */; };
+		DC041C4517F970E4006E35CD /* DMTCoverImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C4217F970E4006E35CD /* DMTCoverImageView.h */; };
+		DC041C4617F970E4006E35CD /* DMTLightingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C4317F970E4006E35CD /* DMTLightingLabel.h */; };
+		DC041C4717F970E4006E35CD /* DMTProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C4417F970E4006E35CD /* DMTProgressHUD.h */; };
+		DC24E0CA1170D2CC002ADFF6 /* DigitalMt.h in Headers */ = {isa = PBXBuildFile; fileRef = DC24E0C91170D2CC002ADFF6 /* DigitalMt.h */; };
+		DC24E0CE1170D2F0002ADFF6 /* DMTLightingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC24E0CD1170D2F0002ADFF6 /* DMTLightingLabel.m */; };
+		DCB381A4116CC070000BDFA2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A3116CC070000BDFA2 /* CoreFoundation.framework */; };
+		DCB381A6116CC070000BDFA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A5116CC070000BDFA2 /* CoreGraphics.framework */; };
+		DCB381A8116CC070000BDFA2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A7116CC070000BDFA2 /* OpenGLES.framework */; };
+		DCB381AA116CC070000BDFA2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A9116CC070000BDFA2 /* QuartzCore.framework */; };
+		DCC00D8B11724F15000118D5 /* DMTCoverImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC00D8A11724F15000118D5 /* DMTCoverImageView.m */; };
+		DCF7D4BF1178AD29003F31C2 /* DMTProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF7D4BE1178AD29003F31C2 /* DMTProgressHUD.m */; };
+		DCF7D4E01178AEF8003F31C2 /* DMTInclude.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF7D4DF1178AEF8003F31C2 /* DMTInclude.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA747D9E0F9514B9006C5449 /* DigitalMtLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigitalMtLib_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libDigitalMtLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDigitalMtLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC041C3617F97095006E35CD /* DLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLog.m; path = class/DLog.m; sourceTree = "<group>"; };
+		DC041C3717F97095006E35CD /* UIApplication+Dimension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+Dimension.m"; path = "class/UIApplication+Dimension.m"; sourceTree = "<group>"; };
+		DC041C3817F97095006E35CD /* UIDevice+machine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+machine.m"; path = "class/UIDevice+machine.m"; sourceTree = "<group>"; };
+		DC041C3C17F970D8006E35CD /* DLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLog.h; path = class/DLog.h; sourceTree = "<group>"; };
+		DC041C3D17F970D8006E35CD /* UIApplication+Dimension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+Dimension.h"; path = "class/UIApplication+Dimension.h"; sourceTree = "<group>"; };
+		DC041C3E17F970D8006E35CD /* UIDevice+machine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+machine.h"; path = "class/UIDevice+machine.h"; sourceTree = "<group>"; };
+		DC041C4217F970E4006E35CD /* DMTCoverImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMTCoverImageView.h; path = class/DMTCoverImageView.h; sourceTree = "<group>"; };
+		DC041C4317F970E4006E35CD /* DMTLightingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMTLightingLabel.h; path = class/DMTLightingLabel.h; sourceTree = "<group>"; };
+		DC041C4417F970E4006E35CD /* DMTProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMTProgressHUD.h; path = class/DMTProgressHUD.h; sourceTree = "<group>"; };
+		DC24E0C91170D2CC002ADFF6 /* DigitalMt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DigitalMt.h; path = include/DigitalMt.h; sourceTree = "<group>"; };
+		DC24E0CD1170D2F0002ADFF6 /* DMTLightingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMTLightingLabel.m; path = class/DMTLightingLabel.m; sourceTree = "<group>"; };
+		DCB381A3116CC070000BDFA2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		DCB381A5116CC070000BDFA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DCB381A7116CC070000BDFA2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DCB381A9116CC070000BDFA2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DCC00D8A11724F15000118D5 /* DMTCoverImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMTCoverImageView.m; path = class/DMTCoverImageView.m; sourceTree = "<group>"; };
+		DCF7D4BE1178AD29003F31C2 /* DMTProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMTProgressHUD.m; path = class/DMTProgressHUD.m; sourceTree = "<group>"; };
+		DCF7D4DF1178AEF8003F31C2 /* DMTInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMTInclude.h; path = include/DMTInclude.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+				DCB381A4116CC070000BDFA2 /* CoreFoundation.framework in Frameworks */,
+				DCB381A6116CC070000BDFA2 /* CoreGraphics.framework in Frameworks */,
+				DCB381A8116CC070000BDFA2 /* OpenGLES.framework in Frameworks */,
+				DCB381AA116CC070000BDFA2 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libDigitalMtLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* DigitalMtLib */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = DigitalMtLib;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				DCB381A3116CC070000BDFA2 /* CoreFoundation.framework */,
+				DCB381A5116CC070000BDFA2 /* CoreGraphics.framework */,
+				DCB381A7116CC070000BDFA2 /* OpenGLES.framework */,
+				DCB381A9116CC070000BDFA2 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DC041C2F17F97070006E35CD /* Util */,
+				DCB38376116CD29F000BDFA2 /* Core */,
+				DCB3820A116CC261000BDFA2 /* UI */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* DigitalMtLib_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		DC041C2F17F97070006E35CD /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				DC041C3C17F970D8006E35CD /* DLog.h */,
+				DC041C3617F97095006E35CD /* DLog.m */,
+				DC041C3D17F970D8006E35CD /* UIApplication+Dimension.h */,
+				DC041C3717F97095006E35CD /* UIApplication+Dimension.m */,
+				DC041C3E17F970D8006E35CD /* UIDevice+machine.h */,
+				DC041C3817F97095006E35CD /* UIDevice+machine.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		DCB3820A116CC261000BDFA2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DC041C4217F970E4006E35CD /* DMTCoverImageView.h */,
+				DC041C4317F970E4006E35CD /* DMTLightingLabel.h */,
+				DC24E0CD1170D2F0002ADFF6 /* DMTLightingLabel.m */,
+				DC041C4417F970E4006E35CD /* DMTProgressHUD.h */,
+				DCF7D4BE1178AD29003F31C2 /* DMTProgressHUD.m */,
+				DCC00D8A11724F15000118D5 /* DMTCoverImageView.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		DCB38376116CD29F000BDFA2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DCF7D4DF1178AEF8003F31C2 /* DMTInclude.h */,
+				DC24E0C91170D2CC002ADFF6 /* DigitalMt.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* DigitalMtLib_Prefix.pch in Headers */,
+				DC24E0CA1170D2CC002ADFF6 /* DigitalMt.h in Headers */,
+				DC041C4017F970D8006E35CD /* UIApplication+Dimension.h in Headers */,
+				DC041C4617F970E4006E35CD /* DMTLightingLabel.h in Headers */,
+				DC041C4717F970E4006E35CD /* DMTProgressHUD.h in Headers */,
+				DC041C3F17F970D8006E35CD /* DLog.h in Headers */,
+				DC041C4117F970D8006E35CD /* UIDevice+machine.h in Headers */,
+				DCF7D4E01178AEF8003F31C2 /* DMTInclude.h in Headers */,
+				DC041C4517F970E4006E35CD /* DMTCoverImageView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* DigitalMtLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "DigitalMtLib" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigitalMtLib;
+			productName = DigitalMtLib;
+			productReference = D2AAC07E0554694100DB518D /* libDigitalMtLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Digital Mt. Inc.";
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "DigitalMtLib" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* DigitalMtLib */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* DigitalMtLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC24E0CE1170D2F0002ADFF6 /* DMTLightingLabel.m in Sources */,
+				DCC00D8B11724F15000118D5 /* DMTCoverImageView.m in Sources */,
+				DC041C3A17F97095006E35CD /* UIApplication+Dimension.m in Sources */,
+				DCF7D4BF1178AD29003F31C2 /* DMTProgressHUD.m in Sources */,
+				DC041C3917F97095006E35CD /* DLog.m in Sources */,
+				DC041C3B17F97095006E35CD /* UIDevice+machine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/DigitalMtLib.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DigitalMtLib_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = DigitalMtLib;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/DigitalMtLib.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DigitalMtLib_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = DigitalMtLib;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yue Chen";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "3D40CCD7-A5B7-449A-BC4E-5E60B183D2C3";
+				SDKROOT = iphoneos3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "DigitalMtLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "DigitalMtLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
