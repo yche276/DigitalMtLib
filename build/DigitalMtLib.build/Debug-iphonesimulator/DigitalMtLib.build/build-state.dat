@@ -1,742 +1,0 @@
-TDigitalMtLib
-v7
-r0
-t318704095.484249
-cCheck dependencies
-cProcessPCH /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-hknlwnpiinmbglggpvjfkncjpcwt/DigitalMtLib_Prefix.pch.gch DigitalMtLib_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DigitalMtLib.build/Debug-iphonesimulator/DigitalMtLib.build/Objects-normal/i386/DMTLightingLabel.o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DigitalMtLib.build/Debug-iphonesimulator/DigitalMtLib.build/Objects-normal/i386/DMTCoverImageView.o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTCoverImageView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DigitalMtLib.build/Debug-iphonesimulator/DigitalMtLib.build/Objects-normal/i386/DMTProgressHUD.o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTProgressHUD.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLibtool "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphonesimulator/libDigitalMtLib.a" normal i386
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk
-c000000004C4840290000000000000110
-t1279803433
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c000000004C0058AB00000000002F10D0
-t1275091115
-s3084496
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C005A1C00000000003B4B70
-t1275091484
-s3885936
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
-c000000004C005A1C00000000000004FE
-t1275091484
-s1278
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C005A45000000000036A640
-t1275091525
-s3581504
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C005A310000000000001355
-t1275091505
-s4949
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c000000004C005BE9000000000003C2B0
-t1275091945
-s246448
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C005C74000000000000007D
-t1275092084
-s125
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C005D9100000000002215A0
-t1275092369
-s2233760
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C00642C000000000000098F
-t1275094060
-s2447
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk
-c000000004C712E0C0000000000000110
-t1282485772
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c000000004BFE05C8000000000037F880
-t1274938824
-s3668096
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFE06FA000000000034A850
-t1274939130
-s3450960
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
-c000000004BFE05F700000000000004FE
-t1274938871
-s1278
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFE07D200000000003E1EB0
-t1274939346
-s4071088
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFE07B10000000000001466
-t1274939313
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c000000004BFE09CA000000000002C690
-t1274939850
-s181904
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C0458CC00000000000000C4
-t1275353292
-s196
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C045AEF0000000000253180
-t1275353839
-s2437504
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C296E2A00000000000009CD
-t1277783594
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk
-c000000004C6DE9E30000000000000110
-t1282271715
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c000000004C5A4FC000000000003834C0
-t1280987072
-s3683520
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004C5A51050000000000345F00
-t1280987397
-s3432192
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
-c000000004C5A4FF800000000000004FE
-t1280987128
-s1278
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004C5A52B100000000003E1EF0
-t1280987825
-s4071152
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004C5A527F0000000000001466
-t1280987775
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c000000004C5A5516000000000002D690
-t1280988438
-s186000
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C5A556300000000000000C4
-t1280988515
-s196
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C5A56D600000000002573D0
-t1280988886
-s2454480
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C62427000000000000009CD
-t1281507952
-s2509
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk
-c000000004CECFE6E0000000000000110
-t1290600046
-s272
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c000000004CC10D9100000000003C3C10
-t1287720337
-s3947536
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC10EF500000000003532B0
-t1287720693
-s3486384
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
-c000000004CC10DCA00000000000004FE
-t1287720394
-s1278
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC10F4700000000003E1F20
-t1287720775
-s4071200
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC10F1C0000000000001466
-t1287720732
-s5222
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c000000004CC110CB000000000002C650
-t1287721163
-s181840
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004CC1111C00000000000000C4
-t1287721244
-s196
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004CC1127D0000000000267530
-t1287721597
-s2520368
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC11AE60000000000000AA1
-t1287723750
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
-c000000004CECFED50000000000000110
-t1290600149
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-c000000004CC121B1000000000023EAC0
-t1287725489
-s2353856
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004CC12246000000000029B310
-t1287725638
-s2732816
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.h
-c000000004CC121DB00000000000004FE
-t1287725531
-s1278
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004CC1226D000000000029D5D0
-t1287725677
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004CC1225F0000000000001466
-t1287725663
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c000000004CC1230E0000000000019D40
-t1287725838
-s105792
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004CC1233C00000000000000C4
-t1287725884
-s196
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004CC12431000000000015CDB0
-t1287726129
-s1428912
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004CC1281F0000000000000AA1
-t1287727135
-s2721
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch
-c000000004BBC865100000000000000BC
-t1270646353
-s188
-i<Foundation/Foundation.h>
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/libDigitalMtLib.a
-t1296984114
-s448576
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphonesimulator/libDigitalMtLib.a
-t1297006310
-s234808
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/DMTCoverImageView.o
-t1296984114
-s65416
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/DMTLightingLabel.o
-t1296984114
-s63920
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/DMTProgressHUD.o
-t1296984114
-s95504
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/DigitalMtLib.LinkFileList
-c000000004D4E683100000000000001C1
-t1296984113
-s449
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/libDigitalMtLib.a
-t1296984114
-s227960
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/DMTCoverImageView.o
-t1296984114
-s63680
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/DMTLightingLabel.o
-t1296984114
-s61932
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/DMTProgressHUD.o
-t1296984114
-s91828
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/DigitalMtLib.LinkFileList
-c000000004D4E683100000000000001C1
-t1296984113
-s449
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/libDigitalMtLib.a
-t1296984114
-s220568
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/StaticAnalyzer/normal/armv6/DMTCoverImageView.plist
-t1279962735
-s276
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/StaticAnalyzer/normal/armv6/DMTLightingLabel.plist
-t1279962920
-s1715
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/StaticAnalyzer/normal/armv6/DMTProgressHUD.plist
-t1279962736
-s276
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/StaticAnalyzer/normal/armv7/DMTCoverImageView.plist
-t1279962736
-s276
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/StaticAnalyzer/normal/armv7/DMTLightingLabel.plist
-t1279962920
-s1715
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/StaticAnalyzer/normal/armv7/DMTProgressHUD.plist
-t1279962736
-s276
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphonesimulator/DigitalMtLib.build/Objects-normal/i386/DMTCoverImageView.o
-t1297006310
-s65932
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphonesimulator/DigitalMtLib.build/Objects-normal/i386/DMTLightingLabel.o
-t1297006310
-s64664
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphonesimulator/DigitalMtLib.build/Objects-normal/i386/DMTProgressHUD.o
-t1297006310
-s101084
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphonesimulator/DigitalMtLib.build/Objects-normal/i386/DigitalMtLib.LinkFileList
-c000000004D3A91D000000000000001D3
-t1295684048
-s467
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTCoverImageView.m
-c000000004C4161960000000000003706
-t1279353238
-s14086
-i"DMTCoverImageView.h"
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m
-c000000004C71668C0000000000001B8D
-t1282500236
-s7053
-i"DMTLightingLabel.h"
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTProgressHUD.m
-c000000004BF79E6F0000000000004151
-t1274519151
-s16721
-i"DMTProgressHUD.h"
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/include/DMTCoverImageView.h
-c000000004BD719FF0000000000000315
-t1272388095
-s789
-i"DigitalMt.h"
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/include/DMTLightingLabel.h
-c000000004BC0858D0000000000000316
-t1270908301
-s790
-i"DigitalMt.h"
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/include/DMTProgressHUD.h
-c000000004BC876E40000000000001FB5
-t1271428836
-s8117
-i<UIKit/UIKit.h>
-
-N/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/include/DigitalMt.h
-c000000004BC8770D0000000000000161
-t1271428877
-s353
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<QuartzCore/QuartzCore.h>
-i<CoreGraphics/CoreGraphics.h>
-
-N/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-avzluubnhdqjqndzfpxuookhqprz/DigitalMtLib_Prefix.pch.gch
-t1279962734
-s5797572
-
-N/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-bahwqoztktvcrxgtipdrtzvczlaq/DigitalMtLib_Prefix.pch.gch
-t1296984114
-s7199300
-
-N/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-bzpkflnivfihlzgtfzaxrjfdsvxc/DigitalMtLib_Prefix.pch.pth
-t1279962735
-s1272248
-
-N/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-dgncmyftsgbugpewgfwywajawtdu/DigitalMtLib_Prefix.pch.gch
-t1288023414
-s6732356
-
-N/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-dpxhelfwqdqjsegwmvwucwcnhzsa/DigitalMtLib_Prefix.pch.gch
-t1282240057
-s6724164
-
-N/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-emwtpzexxqjwyvbahbdtksawadpz/DigitalMtLib_Prefix.pch.gch
-t1296984113
-s6736452
-
-N/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-exmvitmncwksozedtvnslccuapen/DigitalMtLib_Prefix.pch.gch
-t1288023414
-s7199300
-
-N/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-fszrcwdcvizjpgcyjrbixjcvsnkc/DigitalMtLib_Prefix.pch.gch
-t1282240057
-s7199300
-
-N/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-gtcbniwdgowksogqalihyaqyyoyy/DigitalMtLib_Prefix.pch.gch
-t1279962734
-s6260420
-
-N/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-hjqptjixbekdjsfelwmrcthrneii/DigitalMtLib_Prefix.pch.pth
-t1279962735
-s1272400
-
-N/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-hknlwnpiinmbglggpvjfkncjpcwt/DigitalMtLib_Prefix.pch.gch
-t1295684049
-s10505840
-
-CAnalyze "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTCoverImageView.m"
-s301655536.133609
-e301655536.209017
-r1
-xAnalyze
-x/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTCoverImageView.m
-lSLF07#2@84"Analyze /Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTCoverImageView.m301655536#301655536#0(0"0(0#0#76"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTCoverImageView.m8627451808#2038"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fasm-blocks -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv7" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -include /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-hjqptjixbekdjsfelwmrcthrneii/DigitalMtLib_Prefix.pch --analyze "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTCoverImageView.m" -o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/StaticAnalyzer/normal/armv7/DMTCoverImageView.plist"0#
-
-CAnalyze "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m"
-s301655720.204648
-e301655720.301749
-r1
-xAnalyze
-x/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m
-o/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m:204:21:{204:28-204:60}: warning: Value stored to 'pool' during its initialization is never read
-o         NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-o                            ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m:204:21:{204:28-204:60}: warning: Value stored to 'pool' during its initialization is never read
-o         NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-o                            ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o1 warning generated.
-o1 warning generated.
-lSLF07#2@83"Analyze /Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m301655720#301655720#0(330"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m:204:21:{204:28-204:60}: warning: Value stored to 'pool' during its initialization is never read         NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];                            ^      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~1 warning generated.1(0@62"Value stored to 'pool' during its initialization is never read301655720#18446744073709551615#0#1(21@62"Value stored to 'pool' during its initialization is never read301655720#18446744073709551615#0#0(6@75"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m301655611#204#21#0#0#0"1(6@75"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m301655611#204#28#204#59#62"Value stored to 'pool' during its initialization is never read6@75"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m301655611#204#21#0#0#10"Dead store0(19"Dead initialization0#0#75"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m8627490048#2036"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fasm-blocks -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv7" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -include /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-hjqptjixbekdjsfelwmrcthrneii/DigitalMtLib_Prefix.pch --analyze "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m" -o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/StaticAnalyzer/normal/armv7/DMTLightingLabel.plist"0#
-
-CAnalyze "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTProgressHUD.m"
-s301655536.183160
-e301655536.259592
-r1
-xAnalyze
-x/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTProgressHUD.m
-lSLF07#2@81"Analyze /Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTProgressHUD.m301655536#301655536#0(0"0(0#0#73"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTProgressHUD.m8626627488#2032"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fasm-blocks -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv7" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -include /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-hjqptjixbekdjsfelwmrcthrneii/DigitalMtLib_Prefix.pch --analyze "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTProgressHUD.m" -o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/StaticAnalyzer/normal/armv7/DMTProgressHUD.plist"0#
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies318704095#318704095#0(0"0(0#1#0"8647375680#0"0#
-
-CCompileC build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/DMTCoverImageView.o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTCoverImageView.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s318676914.114239
-e318676914.352959
-r1
-xCompileC
-xbuild/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/DMTCoverImageView.o
-x/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTCoverImageView.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTCoverImageView.m318676914#318676914#0(0"0(0#0#76"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTCoverImageView.m8618791936#2009"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv6" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -include /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-emwtpzexxqjwyvbahbdtksawadpz/DigitalMtLib_Prefix.pch -c "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTCoverImageView.m" -o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/DMTCoverImageView.o"0#
-
-CCompileC build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/DMTLightingLabel.o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s318676914.113049
-e318676914.338927
-r1
-xCompileC
-xbuild/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/DMTLightingLabel.o
-x/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m: In function '-[DMTLightingLabel doAnimationThd]':
-o/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m:209: warning: implicit declaration of function 'usleep'
-lSLF07#2@83"Compile /Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m318676914#318676914#0(259"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m: In function '-[DMTLightingLabel doAnimationThd]':/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m:209: warning: implicit declaration of function 'usleep'1(22@41"Implicit declaration of function 'usleep'318676914#127#132#0(6@75"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m304193036#209#0#209#0#36"implicit declaration of function '*'0(0#0#75"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m8625642016#2007"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv6" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -include /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-emwtpzexxqjwyvbahbdtksawadpz/DigitalMtLib_Prefix.pch -c "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m" -o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/DMTLightingLabel.o"0#
-
-CCompileC build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/DMTProgressHUD.o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTProgressHUD.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
-s318676914.339013
-e318676914.650131
-r1
-xCompileC
-xbuild/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/DMTProgressHUD.o
-x/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTProgressHUD.m
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTProgressHUD.m318676914#318676914#0(0"0(0#0#73"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTProgressHUD.m8614993024#2003"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv6" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -include /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-emwtpzexxqjwyvbahbdtksawadpz/DigitalMtLib_Prefix.pch -c "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTProgressHUD.m" -o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/DMTProgressHUD.o"0#
-
-CCompileC build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/DMTCoverImageView.o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTCoverImageView.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
-s318676914.559414
-e318676914.772942
-r1
-xCompileC
-xbuild/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/DMTCoverImageView.o
-x/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTCoverImageView.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTCoverImageView.m318676914#318676914#0(0"0(0#0#76"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTCoverImageView.m8611785216#2009"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv7" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -include /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-bahwqoztktvcrxgtipdrtzvczlaq/DigitalMtLib_Prefix.pch -c "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTCoverImageView.m" -o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/DMTCoverImageView.o"0#
-
-CCompileC build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/DMTLightingLabel.o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
-s318676914.353053
-e318676914.559327
-r1
-xCompileC
-xbuild/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/DMTLightingLabel.o
-x/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m: In function '-[DMTLightingLabel doAnimationThd]':
-o/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m:209: warning: implicit declaration of function 'usleep'
-lSLF07#2@83"Compile /Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m318676914#318676914#0(259"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m: In function '-[DMTLightingLabel doAnimationThd]':/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m:209: warning: implicit declaration of function 'usleep'1(22@41"Implicit declaration of function 'usleep'318676914#127#132#0(6@75"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m304193036#209#0#209#0#36"implicit declaration of function '*'0(0#0#75"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m8614094432#2007"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv7" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -include /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-bahwqoztktvcrxgtipdrtzvczlaq/DigitalMtLib_Prefix.pch -c "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m" -o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/DMTLightingLabel.o"0#
-
-CCompileC build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/DMTProgressHUD.o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTProgressHUD.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
-s318676914.691355
-e318676914.908335
-r1
-xCompileC
-xbuild/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/DMTProgressHUD.o
-x/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTProgressHUD.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTProgressHUD.m318676914#318676914#0(0"0(0#0#73"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTProgressHUD.m8625081504#2003"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv7" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -include /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-bahwqoztktvcrxgtipdrtzvczlaq/DigitalMtLib_Prefix.pch -c "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTProgressHUD.m" -o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/DMTProgressHUD.o"0#
-
-CCompileC build/DigitalMtLib.build/Debug-iphonesimulator/DigitalMtLib.build/Objects-normal/i386/DMTCoverImageView.o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTCoverImageView.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/DigitalMtLib.build/Debug-iphonesimulator/DigitalMtLib.build/Objects-normal/i386/DMTLightingLabel.o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTLightingLabel.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC build/DigitalMtLib.build/Debug-iphonesimulator/DigitalMtLib.build/Objects-normal/i386/DMTProgressHUD.o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/class/DMTProgressHUD.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCreateUniversalBinary "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/libDigitalMtLib.a" normal "armv6 armv7"
-s318676914.914731
-e318676914.948152
-r1
-xCreateUniversalBinary
-x/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/libDigitalMtLib.a
-xnormal
-xarmv6 armv7
-lSLF07#2@81"CreateUniversalBinary build/Debug-iphoneos/libDigitalMtLib.a normal "armv6 armv7"318676914#318676914#0(0"0(0#0#62"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/armv6 armv78613117376#658"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/libDigitalMtLib.a" "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/libDigitalMtLib.a" -o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/libDigitalMtLib.a"0#
-
-CLibtool "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphonesimulator/libDigitalMtLib.a" normal i386
-r0
-
-CLibtool "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/libDigitalMtLib.a" normal armv6
-s318676914.650217
-e318676914.691269
-r1
-xLibtool
-x/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/libDigitalMtLib.a
-xnormal
-xarmv6
-o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-lSLF07#2@118"Libtool build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/libDigitalMtLib.a normal armv6318676914#318676914#0(129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 0(0#0#0"8606643744#921"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv6 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" -filelist "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/DigitalMtLib.LinkFileList" -ObjC -framework Foundation -framework CoreFoundation -framework CoreGraphics -framework OpenGLES -framework QuartzCore -o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv6/libDigitalMtLib.a"0#
-
-CLibtool "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/libDigitalMtLib.a" normal armv7
-s318676914.908419
-e318676914.914647
-r1
-xLibtool
-x/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/libDigitalMtLib.a
-xnormal
-xarmv7
-o/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 
-lSLF07#2@118"Libtool build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/libDigitalMtLib.a normal armv7318676914#318676914#0(129"/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool: -dynamic not specified the following flags are invalid: -ObjC 0(0#0#0"8614884576#921"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/libtool -static -arch_only armv7 -syslibroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk "-L/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" -filelist "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/DigitalMtLib.LinkFileList" -ObjC -framework Foundation -framework CoreFoundation -framework CoreGraphics -framework OpenGLES -framework QuartzCore -o "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/Objects-normal/armv7/libDigitalMtLib.a"0#
-
-CProcessPCH /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-avzluubnhdqjqndzfpxuookhqprz/DigitalMtLib_Prefix.pch.gch DigitalMtLib_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s301655534.290394
-e301655534.836340
-r1
-xProcessPCH
-x/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-avzluubnhdqjqndzfpxuookhqprz/DigitalMtLib_Prefix.pch.gch
-xDigitalMtLib_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile DigitalMtLib_Prefix.pch301655534#301655534#0(0"0(0#0#74"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch5509113372067784704#1856"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv6" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -c "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch" -o /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-avzluubnhdqjqndzfpxuookhqprz/DigitalMtLib_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-bahwqoztktvcrxgtipdrtzvczlaq/DigitalMtLib_Prefix.pch.gch DigitalMtLib_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s318676913.593492
-e318676914.112837
-r1
-xProcessPCH
-x/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-bahwqoztktvcrxgtipdrtzvczlaq/DigitalMtLib_Prefix.pch.gch
-xDigitalMtLib_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile DigitalMtLib_Prefix.pch318676913#318676914#0(0"0(0#0#74"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch8615830560#1856"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv7" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -c "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch" -o /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-bahwqoztktvcrxgtipdrtzvczlaq/DigitalMtLib_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-bzpkflnivfihlzgtfzaxrjfdsvxc/DigitalMtLib_Prefix.pch.pth DigitalMtLib_Prefix.pch normal armv6 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
-s301655534.836441
-e301655535.198572
-r1
-xProcessPCH
-x/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-bzpkflnivfihlzgtfzaxrjfdsvxc/DigitalMtLib_Prefix.pch.pth
-xDigitalMtLib_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.analyzer
-lSLF07#2@34"Precompile DigitalMtLib_Prefix.pch301655534#301655535#0(0"0(0#0#74"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch8631750944#1867"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fasm-blocks -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv6" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -c "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch" -o /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-bzpkflnivfihlzgtfzaxrjfdsvxc/DigitalMtLib_Prefix.pch.pth0#
-
-CProcessPCH /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-dgncmyftsgbugpewgfwywajawtdu/DigitalMtLib_Prefix.pch.gch DigitalMtLib_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s309716214.347171
-e309716214.898878
-r1
-xProcessPCH
-x/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-dgncmyftsgbugpewgfwywajawtdu/DigitalMtLib_Prefix.pch.gch
-xDigitalMtLib_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile DigitalMtLib_Prefix.pch309716214#309716214#0(0"0(0#0#74"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch8610180768#1856"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv6" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -c "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch" -o /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-dgncmyftsgbugpewgfwywajawtdu/DigitalMtLib_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-dpxhelfwqdqjsegwmvwucwcnhzsa/DigitalMtLib_Prefix.pch.gch DigitalMtLib_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s303932854.006133
-e303932857.215073
-r1
-xProcessPCH
-x/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-dpxhelfwqdqjsegwmvwucwcnhzsa/DigitalMtLib_Prefix.pch.gch
-xDigitalMtLib_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile DigitalMtLib_Prefix.pch303932854#303932857#0(0"0(0#0#74"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch8624833600#1856"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv6" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -c "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch" -o /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-dpxhelfwqdqjsegwmvwucwcnhzsa/DigitalMtLib_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-emwtpzexxqjwyvbahbdtksawadpz/DigitalMtLib_Prefix.pch.gch DigitalMtLib_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
-s318676913.592583
-e318676914.083764
-r1
-xProcessPCH
-x/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-emwtpzexxqjwyvbahbdtksawadpz/DigitalMtLib_Prefix.pch.gch
-xDigitalMtLib_Prefix.pch
-xnormal
-xarmv6
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile DigitalMtLib_Prefix.pch318676913#318676914#0(0"0(0#0#74"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch8616706368#1856"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv6" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -c "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch" -o /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-emwtpzexxqjwyvbahbdtksawadpz/DigitalMtLib_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-exmvitmncwksozedtvnslccuapen/DigitalMtLib_Prefix.pch.gch DigitalMtLib_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s309716214.361556
-e309716214.933804
-r1
-xProcessPCH
-x/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-exmvitmncwksozedtvnslccuapen/DigitalMtLib_Prefix.pch.gch
-xDigitalMtLib_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile DigitalMtLib_Prefix.pch309716214#309716214#0(0"0(0#0#74"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch8609966176#1856"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.1 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv7" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -c "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch" -o /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-exmvitmncwksozedtvnslccuapen/DigitalMtLib_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-fszrcwdcvizjpgcyjrbixjcvsnkc/DigitalMtLib_Prefix.pch.gch DigitalMtLib_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s303932854.007205
-e303932857.226042
-r1
-xProcessPCH
-x/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-fszrcwdcvizjpgcyjrbixjcvsnkc/DigitalMtLib_Prefix.pch.gch
-xDigitalMtLib_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile DigitalMtLib_Prefix.pch303932854#303932857#0(0"0(0#0#74"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch8624369088#1856"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.0.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=4.0 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv7" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -c "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch" -o /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-fszrcwdcvizjpgcyjrbixjcvsnkc/DigitalMtLib_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-gtcbniwdgowksogqalihyaqyyoyy/DigitalMtLib_Prefix.pch.gch DigitalMtLib_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
-s301655534.291467
-e301655534.896517
-r1
-xProcessPCH
-x/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-gtcbniwdgowksogqalihyaqyyoyy/DigitalMtLib_Prefix.pch.gch
-xDigitalMtLib_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile DigitalMtLib_Prefix.pch301655534#301655534#0(0"0(0#0#74"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch8629316832#1856"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv7" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -c "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch" -o /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-gtcbniwdgowksogqalihyaqyyoyy/DigitalMtLib_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-hjqptjixbekdjsfelwmrcthrneii/DigitalMtLib_Prefix.pch.pth DigitalMtLib_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
-s301655534.896670
-e301655535.197998
-r1
-xProcessPCH
-x/var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-hjqptjixbekdjsfelwmrcthrneii/DigitalMtLib_Prefix.pch.pth
-xDigitalMtLib_Prefix.pch
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.analyzer
-lSLF07#2@34"Precompile DigitalMtLib_Prefix.pch301655534#301655535#0(0"0(0#0#74"/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch8631647616#1867"    cd "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.2.sdk -fasm-blocks -mfix-and-continue -gdwarf-2 -mthumb -miphoneos-version-min=3.2 -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-generated-files.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-own-target-headers.hmap" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-all-target-headers.hmap" -iquote "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DigitalMtLib-project-headers.hmap" "-F/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/Debug-iphoneos/include" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources/armv7" "-I/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/build/DigitalMtLib.build/Debug-iphoneos/DigitalMtLib.build/DerivedSources" -c "/Users/ChenYue/Desktop/iPhone Project/DigitalMtLib/DigitalMtLib_Prefix.pch" -o /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-hjqptjixbekdjsfelwmrcthrneii/DigitalMtLib_Prefix.pch.pth0#
-
-CProcessPCH /var/folders/vZ/vZnWwa7CGpaSN+2LsfwR1k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DigitalMtLib_Prefix-hknlwnpiinmbglggpvjfkncjpcwt/DigitalMtLib_Prefix.pch.gch DigitalMtLib_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
