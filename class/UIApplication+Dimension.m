@@ -26,6 +26,8 @@
     {
         size.height -= MIN(application.statusBarFrame.size.width, application.statusBarFrame.size.height);
     }
+    
+    NSLog(@"size = %@", NSStringFromCGSize(size));
     return size;
 }
 

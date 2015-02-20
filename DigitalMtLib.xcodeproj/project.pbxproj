@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,10 +11,8 @@
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		DC041C3917F97095006E35CD /* DLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DC041C3617F97095006E35CD /* DLog.m */; };
 		DC041C3A17F97095006E35CD /* UIApplication+Dimension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC041C3717F97095006E35CD /* UIApplication+Dimension.m */; };
-		DC041C3B17F97095006E35CD /* UIDevice+machine.m in Sources */ = {isa = PBXBuildFile; fileRef = DC041C3817F97095006E35CD /* UIDevice+machine.m */; };
 		DC041C3F17F970D8006E35CD /* DLog.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C3C17F970D8006E35CD /* DLog.h */; };
 		DC041C4017F970D8006E35CD /* UIApplication+Dimension.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C3D17F970D8006E35CD /* UIApplication+Dimension.h */; };
-		DC041C4117F970D8006E35CD /* UIDevice+machine.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C3E17F970D8006E35CD /* UIDevice+machine.h */; };
 		DC041C4517F970E4006E35CD /* DMTCoverImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C4217F970E4006E35CD /* DMTCoverImageView.h */; };
 		DC041C4617F970E4006E35CD /* DMTLightingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C4317F970E4006E35CD /* DMTLightingLabel.h */; };
 		DC041C4717F970E4006E35CD /* DMTProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C4417F970E4006E35CD /* DMTProgressHUD.h */; };
@@ -30,15 +28,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A4680D2180259000040D1D2 /* ZendoDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZendoDefines.h; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* DigitalMtLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigitalMtLib_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libDigitalMtLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDigitalMtLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC041C3617F97095006E35CD /* DLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLog.m; path = class/DLog.m; sourceTree = "<group>"; };
 		DC041C3717F97095006E35CD /* UIApplication+Dimension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+Dimension.m"; path = "class/UIApplication+Dimension.m"; sourceTree = "<group>"; };
-		DC041C3817F97095006E35CD /* UIDevice+machine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+machine.m"; path = "class/UIDevice+machine.m"; sourceTree = "<group>"; };
 		DC041C3C17F970D8006E35CD /* DLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLog.h; path = class/DLog.h; sourceTree = "<group>"; };
 		DC041C3D17F970D8006E35CD /* UIApplication+Dimension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+Dimension.h"; path = "class/UIApplication+Dimension.h"; sourceTree = "<group>"; };
-		DC041C3E17F970D8006E35CD /* UIDevice+machine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+machine.h"; path = "class/UIDevice+machine.h"; sourceTree = "<group>"; };
 		DC041C4217F970E4006E35CD /* DMTCoverImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMTCoverImageView.h; path = class/DMTCoverImageView.h; sourceTree = "<group>"; };
 		DC041C4317F970E4006E35CD /* DMTLightingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMTLightingLabel.h; path = class/DMTLightingLabel.h; sourceTree = "<group>"; };
 		DC041C4417F970E4006E35CD /* DMTProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMTProgressHUD.h; path = class/DMTProgressHUD.h; sourceTree = "<group>"; };
@@ -125,8 +122,6 @@
 				DC041C3617F97095006E35CD /* DLog.m */,
 				DC041C3D17F970D8006E35CD /* UIApplication+Dimension.h */,
 				DC041C3717F97095006E35CD /* UIApplication+Dimension.m */,
-				DC041C3E17F970D8006E35CD /* UIDevice+machine.h */,
-				DC041C3817F97095006E35CD /* UIDevice+machine.m */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -148,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				DCF7D4DF1178AEF8003F31C2 /* DMTInclude.h */,
+				4A4680D2180259000040D1D2 /* ZendoDefines.h */,
 				DC24E0C91170D2CC002ADFF6 /* DigitalMt.h */,
 			);
 			name = Core;
@@ -166,7 +162,6 @@
 				DC041C4617F970E4006E35CD /* DMTLightingLabel.h in Headers */,
 				DC041C4717F970E4006E35CD /* DMTProgressHUD.h in Headers */,
 				DC041C3F17F970D8006E35CD /* DLog.h in Headers */,
-				DC041C4117F970D8006E35CD /* UIDevice+machine.h in Headers */,
 				DCF7D4E01178AEF8003F31C2 /* DMTInclude.h in Headers */,
 				DC041C4517F970E4006E35CD /* DMTCoverImageView.h in Headers */,
 			);
@@ -198,10 +193,11 @@
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Digital Mt. Inc.";
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "DigitalMtLib" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -230,7 +226,6 @@
 				DC041C3A17F97095006E35CD /* UIApplication+Dimension.m in Sources */,
 				DCF7D4BF1178AD29003F31C2 /* DMTProgressHUD.m in Sources */,
 				DC041C3917F97095006E35CD /* DLog.m in Sources */,
-				DC041C3B17F97095006E35CD /* UIDevice+machine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +236,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/DigitalMtLib.dst;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -251,7 +245,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DigitalMtLib_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = DigitalMtLib;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -259,29 +255,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/DigitalMtLib.dst;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DigitalMtLib_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = DigitalMtLib;
-				SDKROOT = iphoneos4.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
 		1DEB922308733DC00010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -289,7 +286,6 @@
 		1DEB922408733DC00010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Yue Chen";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -297,7 +293,7 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PREBINDING = NO;
 				PROVISIONING_PROFILE = "3D40CCD7-A5B7-449A-BC4E-5E60B183D2C3";
-				SDKROOT = iphoneos3.0;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

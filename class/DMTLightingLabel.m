@@ -3,7 +3,7 @@
 //  
 //
 //  Created by Victor Chen on 1/11/10.
-//  Copyright Digital Mt. Inc. 2010. All rights reserved.
+//  Copyright Mt. Zendo Inc. 2010. All rights reserved.
 //
 
 #import "DMTLightingLabel.h"

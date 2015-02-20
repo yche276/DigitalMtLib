@@ -3,7 +3,7 @@
  *  DigitalMtLib
  *
  *  Created by Victor Chen on 4/16/10.
- *  Copyright 2010 Digital Mt. Inc. All rights reserved.
+ *  Copyright 2010 Mt. Zendo Inc. All rights reserved.
  *
  */
 

@@ -3,7 +3,7 @@
  *  DigitalMtLib
  *
  *  Created by Victor Chen on 4/10/10.
- *  Copyright 2010 Digital Mt. Inc. All rights reserved.
+ *  Copyright 2010 Mt. Zendo Inc. All rights reserved.
  *
  */
 
@@ -12,6 +12,10 @@
 #import <QuartzCore/QuartzCore.h>
 #import <CoreGraphics/CoreGraphics.h>
 
+#import "ZendoDefines.h"
+#import "DMTInclude.h"
+#import "DLog.h"
+#import "UIApplication+Dimension.h"
 
 #define TT_RELEASE_SAFELY(__POINTER) { [__POINTER release]; __POINTER = nil; }
 

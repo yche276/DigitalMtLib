@@ -3,7 +3,7 @@
 //  
 //
 //  Created by chenyue on 10-4-1.
-//  Copyright Digital Mt. Inc. 2010. All rights reserved.
+//  Copyright Mt. Zendo Inc. 2010. All rights reserved.
 //
 
 #import "DigitalMt.h"
