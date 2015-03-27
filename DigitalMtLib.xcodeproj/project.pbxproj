@@ -23,6 +23,8 @@
 		DCB381A8116CC070000BDFA2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A7116CC070000BDFA2 /* OpenGLES.framework */; };
 		DCB381AA116CC070000BDFA2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A9116CC070000BDFA2 /* QuartzCore.framework */; };
 		DCC00D8B11724F15000118D5 /* DMTCoverImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC00D8A11724F15000118D5 /* DMTCoverImageView.m */; };
+		DCDA23021AC56A910024CCD9 /* UIDevice+Info.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDA23001AC56A910024CCD9 /* UIDevice+Info.h */; };
+		DCDA23031AC56A910024CCD9 /* UIDevice+Info.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDA23011AC56A910024CCD9 /* UIDevice+Info.m */; };
 		DCF7D4BF1178AD29003F31C2 /* DMTProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF7D4BE1178AD29003F31C2 /* DMTProgressHUD.m */; };
 		DCF7D4E01178AEF8003F31C2 /* DMTInclude.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF7D4DF1178AEF8003F31C2 /* DMTInclude.h */; };
 /* End PBXBuildFile section */
@@ -46,6 +48,8 @@
 		DCB381A7116CC070000BDFA2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		DCB381A9116CC070000BDFA2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		DCC00D8A11724F15000118D5 /* DMTCoverImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMTCoverImageView.m; path = class/DMTCoverImageView.m; sourceTree = "<group>"; };
+		DCDA23001AC56A910024CCD9 /* UIDevice+Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+Info.h"; path = "class/UIDevice+Info.h"; sourceTree = "<group>"; };
+		DCDA23011AC56A910024CCD9 /* UIDevice+Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+Info.m"; path = "class/UIDevice+Info.m"; sourceTree = "<group>"; };
 		DCF7D4BE1178AD29003F31C2 /* DMTProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMTProgressHUD.m; path = class/DMTProgressHUD.m; sourceTree = "<group>"; };
 		DCF7D4DF1178AEF8003F31C2 /* DMTInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMTInclude.h; path = include/DMTInclude.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +126,8 @@
 				DC041C3617F97095006E35CD /* DLog.m */,
 				DC041C3D17F970D8006E35CD /* UIApplication+Dimension.h */,
 				DC041C3717F97095006E35CD /* UIApplication+Dimension.m */,
+				DCDA23001AC56A910024CCD9 /* UIDevice+Info.h */,
+				DCDA23011AC56A910024CCD9 /* UIDevice+Info.m */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -160,6 +166,7 @@
 				DC24E0CA1170D2CC002ADFF6 /* DigitalMt.h in Headers */,
 				DC041C4017F970D8006E35CD /* UIApplication+Dimension.h in Headers */,
 				DC041C4617F970E4006E35CD /* DMTLightingLabel.h in Headers */,
+				DCDA23021AC56A910024CCD9 /* UIDevice+Info.h in Headers */,
 				DC041C4717F970E4006E35CD /* DMTProgressHUD.h in Headers */,
 				DC041C3F17F970D8006E35CD /* DLog.h in Headers */,
 				DCF7D4E01178AEF8003F31C2 /* DMTInclude.h in Headers */,
@@ -222,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC24E0CE1170D2F0002ADFF6 /* DMTLightingLabel.m in Sources */,
+				DCDA23031AC56A910024CCD9 /* UIDevice+Info.m in Sources */,
 				DCC00D8B11724F15000118D5 /* DMTCoverImageView.m in Sources */,
 				DC041C3A17F97095006E35CD /* UIApplication+Dimension.m in Sources */,
 				DCF7D4BF1178AD29003F31C2 /* DMTProgressHUD.m in Sources */,

@@ -16,6 +16,7 @@
 #import "DMTInclude.h"
 #import "DLog.h"
 #import "UIApplication+Dimension.h"
+#import "UIDevice+Info.h"
 
 #define TT_RELEASE_SAFELY(__POINTER) { [__POINTER release]; __POINTER = nil; }
 
