@@ -2,7 +2,7 @@
 //  CoverView.h
 //  
 //
-//  Created by chenyue on 10-4-1.
+//  Created by Victor Chen on 10-4-1.
 //  Copyright Mt. Zendo Inc. 2010. All rights reserved.
 //
 

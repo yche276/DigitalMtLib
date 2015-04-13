@@ -14,10 +14,13 @@
 		DC041C3F17F970D8006E35CD /* DLog.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C3C17F970D8006E35CD /* DLog.h */; };
 		DC041C4017F970D8006E35CD /* UIApplication+Dimension.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C3D17F970D8006E35CD /* UIApplication+Dimension.h */; };
 		DC041C4517F970E4006E35CD /* DMTCoverImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C4217F970E4006E35CD /* DMTCoverImageView.h */; };
-		DC041C4617F970E4006E35CD /* DMTLightingLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C4317F970E4006E35CD /* DMTLightingLabel.h */; };
-		DC041C4717F970E4006E35CD /* DMTProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C4417F970E4006E35CD /* DMTProgressHUD.h */; };
 		DC24E0CA1170D2CC002ADFF6 /* DigitalMt.h in Headers */ = {isa = PBXBuildFile; fileRef = DC24E0C91170D2CC002ADFF6 /* DigitalMt.h */; };
-		DC24E0CE1170D2F0002ADFF6 /* DMTLightingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = DC24E0CD1170D2F0002ADFF6 /* DMTLightingLabel.m */; };
+		DC2B42031AD2B3F600ACCC23 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2B42021AD2B3F600ACCC23 /* RootViewController.m */; };
+		DC2B420F1AD55B6E00ACCC23 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2B420D1AD55B6E00ACCC23 /* TextViewController.m */; };
+		DC2B42101AD55B6E00ACCC23 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2B420D1AD55B6E00ACCC23 /* TextViewController.m */; };
+		DC2B42111AD55B6E00ACCC23 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2B420E1AD55B6E00ACCC23 /* TextViewController.xib */; };
+		DC2B42121AD55B6E00ACCC23 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2B420E1AD55B6E00ACCC23 /* TextViewController.xib */; };
+		DC6FD5AD1AD2B17200BBEDBF /* libDigitalMtLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libDigitalMtLib.a */; };
 		DCB381A4116CC070000BDFA2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A3116CC070000BDFA2 /* CoreFoundation.framework */; };
 		DCB381A6116CC070000BDFA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A5116CC070000BDFA2 /* CoreGraphics.framework */; };
 		DCB381A8116CC070000BDFA2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A7116CC070000BDFA2 /* OpenGLES.framework */; };
@@ -25,9 +28,32 @@
 		DCC00D8B11724F15000118D5 /* DMTCoverImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC00D8A11724F15000118D5 /* DMTCoverImageView.m */; };
 		DCDA23021AC56A910024CCD9 /* UIDevice+Info.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDA23001AC56A910024CCD9 /* UIDevice+Info.h */; };
 		DCDA23031AC56A910024CCD9 /* UIDevice+Info.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDA23011AC56A910024CCD9 /* UIDevice+Info.m */; };
-		DCF7D4BF1178AD29003F31C2 /* DMTProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DCF7D4BE1178AD29003F31C2 /* DMTProgressHUD.m */; };
+		DCDA230D1AC56E190024CCD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDA230C1AC56E190024CCD9 /* main.m */; };
+		DCDA23101AC56E190024CCD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDA230F1AC56E190024CCD9 /* AppDelegate.m */; };
+		DCDA23131AC56E190024CCD9 /* LibDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCDA23111AC56E190024CCD9 /* LibDemo.xcdatamodeld */; };
+		DCDA231C1AC56E190024CCD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCDA231A1AC56E190024CCD9 /* Main.storyboard */; };
+		DCDA231E1AC56E190024CCD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDA231D1AC56E190024CCD9 /* Images.xcassets */; };
+		DCDA23211AC56E190024CCD9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCDA231F1AC56E190024CCD9 /* LaunchScreen.xib */; };
+		DCDA232D1AC56E190024CCD9 /* LibDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDA232C1AC56E190024CCD9 /* LibDemoTests.m */; };
 		DCF7D4E01178AEF8003F31C2 /* DMTInclude.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF7D4DF1178AEF8003F31C2 /* DMTInclude.h */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC6FD5AB1AD2B15B00BBEDBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = DigitalMtLib;
+		};
+		DCDA23271AC56E190024CCD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCDA23071AC56E190024CCD9;
+			remoteInfo = LibDemo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4A4680D2180259000040D1D2 /* ZendoDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZendoDefines.h; sourceTree = "<group>"; };
@@ -39,10 +65,12 @@
 		DC041C3C17F970D8006E35CD /* DLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLog.h; path = class/DLog.h; sourceTree = "<group>"; };
 		DC041C3D17F970D8006E35CD /* UIApplication+Dimension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+Dimension.h"; path = "class/UIApplication+Dimension.h"; sourceTree = "<group>"; };
 		DC041C4217F970E4006E35CD /* DMTCoverImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMTCoverImageView.h; path = class/DMTCoverImageView.h; sourceTree = "<group>"; };
-		DC041C4317F970E4006E35CD /* DMTLightingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMTLightingLabel.h; path = class/DMTLightingLabel.h; sourceTree = "<group>"; };
-		DC041C4417F970E4006E35CD /* DMTProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMTProgressHUD.h; path = class/DMTProgressHUD.h; sourceTree = "<group>"; };
 		DC24E0C91170D2CC002ADFF6 /* DigitalMt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DigitalMt.h; path = include/DigitalMt.h; sourceTree = "<group>"; };
-		DC24E0CD1170D2F0002ADFF6 /* DMTLightingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMTLightingLabel.m; path = class/DMTLightingLabel.m; sourceTree = "<group>"; };
+		DC2B42011AD2B3F600ACCC23 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		DC2B42021AD2B3F600ACCC23 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		DC2B420C1AD55B6E00ACCC23 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		DC2B420D1AD55B6E00ACCC23 /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
+		DC2B420E1AD55B6E00ACCC23 /* TextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewController.xib; sourceTree = "<group>"; };
 		DCB381A3116CC070000BDFA2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		DCB381A5116CC070000BDFA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DCB381A7116CC070000BDFA2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -50,7 +78,18 @@
 		DCC00D8A11724F15000118D5 /* DMTCoverImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMTCoverImageView.m; path = class/DMTCoverImageView.m; sourceTree = "<group>"; };
 		DCDA23001AC56A910024CCD9 /* UIDevice+Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+Info.h"; path = "class/UIDevice+Info.h"; sourceTree = "<group>"; };
 		DCDA23011AC56A910024CCD9 /* UIDevice+Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+Info.m"; path = "class/UIDevice+Info.m"; sourceTree = "<group>"; };
-		DCF7D4BE1178AD29003F31C2 /* DMTProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMTProgressHUD.m; path = class/DMTProgressHUD.m; sourceTree = "<group>"; };
+		DCDA23081AC56E190024CCD9 /* LibDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDA230B1AC56E190024CCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDA230C1AC56E190024CCD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCDA230E1AC56E190024CCD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCDA230F1AC56E190024CCD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCDA23121AC56E190024CCD9 /* LibDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LibDemo.xcdatamodel; sourceTree = "<group>"; };
+		DCDA231B1AC56E190024CCD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCDA231D1AC56E190024CCD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCDA23201AC56E190024CCD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DCDA23261AC56E190024CCD9 /* LibDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDA232B1AC56E190024CCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDA232C1AC56E190024CCD9 /* LibDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibDemoTests.m; sourceTree = "<group>"; };
 		DCF7D4DF1178AEF8003F31C2 /* DMTInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMTInclude.h; path = include/DMTInclude.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +106,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCDA23051AC56E190024CCD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6FD5AD1AD2B17200BBEDBF /* libDigitalMtLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDA23231AC56E190024CCD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -74,6 +128,8 @@
 			isa = PBXGroup;
 			children = (
 				D2AAC07E0554694100DB518D /* libDigitalMtLib.a */,
+				DCDA23081AC56E190024CCD9 /* LibDemo.app */,
+				DCDA23261AC56E190024CCD9 /* LibDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,6 +139,8 @@
 			children = (
 				08FB77AEFE84172EC02AAC07 /* Classes */,
 				32C88DFF0371C24200C91783 /* Other Sources */,
+				DCDA23091AC56E190024CCD9 /* LibDemo */,
+				DCDA23291AC56E190024CCD9 /* LibDemoTests */,
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
@@ -136,10 +194,6 @@
 			isa = PBXGroup;
 			children = (
 				DC041C4217F970E4006E35CD /* DMTCoverImageView.h */,
-				DC041C4317F970E4006E35CD /* DMTLightingLabel.h */,
-				DC24E0CD1170D2F0002ADFF6 /* DMTLightingLabel.m */,
-				DC041C4417F970E4006E35CD /* DMTProgressHUD.h */,
-				DCF7D4BE1178AD29003F31C2 /* DMTProgressHUD.m */,
 				DCC00D8A11724F15000118D5 /* DMTCoverImageView.m */,
 			);
 			name = UI;
@@ -155,6 +209,51 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		DCDA23091AC56E190024CCD9 /* LibDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DCDA230E1AC56E190024CCD9 /* AppDelegate.h */,
+				DCDA230F1AC56E190024CCD9 /* AppDelegate.m */,
+				DC2B42011AD2B3F600ACCC23 /* RootViewController.h */,
+				DC2B42021AD2B3F600ACCC23 /* RootViewController.m */,
+				DC2B420C1AD55B6E00ACCC23 /* TextViewController.h */,
+				DC2B420D1AD55B6E00ACCC23 /* TextViewController.m */,
+				DC2B420E1AD55B6E00ACCC23 /* TextViewController.xib */,
+				DCDA231A1AC56E190024CCD9 /* Main.storyboard */,
+				DCDA231D1AC56E190024CCD9 /* Images.xcassets */,
+				DCDA231F1AC56E190024CCD9 /* LaunchScreen.xib */,
+				DCDA23111AC56E190024CCD9 /* LibDemo.xcdatamodeld */,
+				DCDA230A1AC56E190024CCD9 /* Supporting Files */,
+			);
+			path = LibDemo;
+			sourceTree = "<group>";
+		};
+		DCDA230A1AC56E190024CCD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCDA230B1AC56E190024CCD9 /* Info.plist */,
+				DCDA230C1AC56E190024CCD9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCDA23291AC56E190024CCD9 /* LibDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCDA232C1AC56E190024CCD9 /* LibDemoTests.m */,
+				DCDA232A1AC56E190024CCD9 /* Supporting Files */,
+			);
+			path = LibDemoTests;
+			sourceTree = "<group>";
+		};
+		DCDA232A1AC56E190024CCD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCDA232B1AC56E190024CCD9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -165,9 +264,7 @@
 				AA747D9F0F9514B9006C5449 /* DigitalMtLib_Prefix.pch in Headers */,
 				DC24E0CA1170D2CC002ADFF6 /* DigitalMt.h in Headers */,
 				DC041C4017F970D8006E35CD /* UIApplication+Dimension.h in Headers */,
-				DC041C4617F970E4006E35CD /* DMTLightingLabel.h in Headers */,
 				DCDA23021AC56A910024CCD9 /* UIDevice+Info.h in Headers */,
-				DC041C4717F970E4006E35CD /* DMTProgressHUD.h in Headers */,
 				DC041C3F17F970D8006E35CD /* DLog.h in Headers */,
 				DCF7D4E01178AEF8003F31C2 /* DMTInclude.h in Headers */,
 				DC041C4517F970E4006E35CD /* DMTCoverImageView.h in Headers */,
@@ -194,6 +291,42 @@
 			productReference = D2AAC07E0554694100DB518D /* libDigitalMtLib.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		DCDA23071AC56E190024CCD9 /* LibDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDA232E1AC56E190024CCD9 /* Build configuration list for PBXNativeTarget "LibDemo" */;
+			buildPhases = (
+				DCDA23041AC56E190024CCD9 /* Sources */,
+				DCDA23051AC56E190024CCD9 /* Frameworks */,
+				DCDA23061AC56E190024CCD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC6FD5AC1AD2B15B00BBEDBF /* PBXTargetDependency */,
+			);
+			name = LibDemo;
+			productName = LibDemo;
+			productReference = DCDA23081AC56E190024CCD9 /* LibDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCDA23251AC56E190024CCD9 /* LibDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDA23311AC56E190024CCD9 /* Build configuration list for PBXNativeTarget "LibDemoTests" */;
+			buildPhases = (
+				DCDA23221AC56E190024CCD9 /* Sources */,
+				DCDA23231AC56E190024CCD9 /* Frameworks */,
+				DCDA23241AC56E190024CCD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCDA23281AC56E190024CCD9 /* PBXTargetDependency */,
+			);
+			name = LibDemoTests;
+			productName = LibDemoTests;
+			productReference = DCDA23261AC56E190024CCD9 /* LibDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +335,15 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Digital Mt. Inc.";
+				TargetAttributes = {
+					DCDA23071AC56E190024CCD9 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DCDA23251AC56E190024CCD9 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DCDA23071AC56E190024CCD9;
+					};
+				};
 			};
 			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "DigitalMtLib" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -212,6 +354,7 @@
 				Japanese,
 				French,
 				German,
+				Base,
 			);
 			mainGroup = 0867D691FE84028FC02AAC07 /* DigitalMtLib */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
@@ -219,25 +362,100 @@
 			projectRoot = "";
 			targets = (
 				D2AAC07D0554694100DB518D /* DigitalMtLib */,
+				DCDA23071AC56E190024CCD9 /* LibDemo */,
+				DCDA23251AC56E190024CCD9 /* LibDemoTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCDA23061AC56E190024CCD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDA231C1AC56E190024CCD9 /* Main.storyboard in Resources */,
+				DCDA23211AC56E190024CCD9 /* LaunchScreen.xib in Resources */,
+				DCDA231E1AC56E190024CCD9 /* Images.xcassets in Resources */,
+				DC2B42111AD55B6E00ACCC23 /* TextViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDA23241AC56E190024CCD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2B42121AD55B6E00ACCC23 /* TextViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D2AAC07B0554694100DB518D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC24E0CE1170D2F0002ADFF6 /* DMTLightingLabel.m in Sources */,
 				DCDA23031AC56A910024CCD9 /* UIDevice+Info.m in Sources */,
 				DCC00D8B11724F15000118D5 /* DMTCoverImageView.m in Sources */,
 				DC041C3A17F97095006E35CD /* UIApplication+Dimension.m in Sources */,
-				DCF7D4BF1178AD29003F31C2 /* DMTProgressHUD.m in Sources */,
 				DC041C3917F97095006E35CD /* DLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DCDA23041AC56E190024CCD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC2B420F1AD55B6E00ACCC23 /* TextViewController.m in Sources */,
+				DC2B42031AD2B3F600ACCC23 /* RootViewController.m in Sources */,
+				DCDA23101AC56E190024CCD9 /* AppDelegate.m in Sources */,
+				DCDA23131AC56E190024CCD9 /* LibDemo.xcdatamodeld in Sources */,
+				DCDA230D1AC56E190024CCD9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDA23221AC56E190024CCD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDA232D1AC56E190024CCD9 /* LibDemoTests.m in Sources */,
+				DC2B42101AD55B6E00ACCC23 /* TextViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC6FD5AC1AD2B15B00BBEDBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* DigitalMtLib */;
+			targetProxy = DC6FD5AB1AD2B15B00BBEDBF /* PBXContainerItemProxy */;
+		};
+		DCDA23281AC56E190024CCD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCDA23071AC56E190024CCD9 /* LibDemo */;
+			targetProxy = DCDA23271AC56E190024CCD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCDA231A1AC56E190024CCD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCDA231B1AC56E190024CCD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCDA231F1AC56E190024CCD9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCDA23201AC56E190024CCD9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB921F08733DC00010E9CD /* Debug */ = {
@@ -306,6 +524,172 @@
 			};
 			name = Release;
 		};
+		DCDA232F1AC56E190024CCD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = LibDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCDA23301AC56E190024CCD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = LibDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCDA23321AC56E190024CCD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = LibDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LibDemo.app/LibDemo";
+			};
+			name = Debug;
+		};
+		DCDA23331AC56E190024CCD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				INFOPLIST_FILE = LibDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LibDemo.app/LibDemo";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -327,7 +711,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		DCDA232E1AC56E190024CCD9 /* Build configuration list for PBXNativeTarget "LibDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDA232F1AC56E190024CCD9 /* Debug */,
+				DCDA23301AC56E190024CCD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCDA23311AC56E190024CCD9 /* Build configuration list for PBXNativeTarget "LibDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDA23321AC56E190024CCD9 /* Debug */,
+				DCDA23331AC56E190024CCD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCDA23111AC56E190024CCD9 /* LibDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCDA23121AC56E190024CCD9 /* LibDemo.xcdatamodel */,
+			);
+			currentVersion = DCDA23121AC56E190024CCD9 /* LibDemo.xcdatamodel */;
+			path = LibDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
 }

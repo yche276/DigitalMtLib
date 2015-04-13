@@ -2,7 +2,7 @@
 //  CoverView.m
 //  
 //
-//  Created by chenyue on 10-4-1.
+//  Created by Victor Chen on 10-4-1.
 //  Copyright Mt. Zendo Inc. 2010. All rights reserved.
 //
 
@@ -370,7 +370,7 @@ CGImageRef AEViewCreateGradientImage (int pixelsWide, int pixelsHigh)
 	// main view content to create the 'fade' of the reflection.  The CGImageCreateWithMask
 	// function will stretch the bitmap image as required, so we can create a 1 pixel wide
 	// gradient
-	CGImageRef gradientMaskImage=AEViewCreateGradientImage(1,height);
+	CGImageRef gradientMaskImage=AEViewCreateGradientImage(1,(int)height);
 	
 	// Create an image by masking the bitmap of the mainView content with the gradient view
 	// then release the  pre-masked content bitmap and the gradient bitmap
