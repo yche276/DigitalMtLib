@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D2AAC07D0554694100DB518D"
                BuildableName = "libDigitalMtLib.a"
-               BlueprintName = "DigitalMtLib"
-               ReferencedContainer = "container:DigitalMtLib.xcodeproj">
+               BlueprintName = "MtZendoLib"
+               ReferencedContainer = "container:MtZendoLib.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D2AAC07D0554694100DB518D"
             BuildableName = "libDigitalMtLib.a"
-            BlueprintName = "DigitalMtLib"
-            ReferencedContainer = "container:DigitalMtLib.xcodeproj">
+            BlueprintName = "MtZendoLib"
+            ReferencedContainer = "container:MtZendoLib.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>

@@ -95,8 +95,8 @@
         NSLog(@"description = %@", [dev description]);
         
         
-        if (dev.type == DEVICE_TYPE_UNKNOWN) {
-            NSLog(@"DEVICE_TYPE_UNKNOWNDEVICE_TYPE_UNKNOWNDEVICE_TYPE_UNKNOWN");
+        if (dev.type == DEVICE_TYPE_IPAD) {
+            NSLog(@"DEVICE_TYPE_IPAD");
         }
         
         TextViewController *controller = [[TextViewController alloc] initWithNibName:NSStringFromClass([TextViewController class]) bundle:nil];

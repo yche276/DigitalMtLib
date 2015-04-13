@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA747D9F0F9514B9006C5449 /* DigitalMtLib_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* DigitalMtLib_Prefix.pch */; };
+		AA747D9F0F9514B9006C5449 /* MtZendoLib_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* MtZendoLib_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		DC041C3917F97095006E35CD /* DLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DC041C3617F97095006E35CD /* DLog.m */; };
 		DC041C3A17F97095006E35CD /* UIApplication+Dimension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC041C3717F97095006E35CD /* UIApplication+Dimension.m */; };
@@ -20,7 +20,7 @@
 		DC2B42101AD55B6E00ACCC23 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2B420D1AD55B6E00ACCC23 /* TextViewController.m */; };
 		DC2B42111AD55B6E00ACCC23 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2B420E1AD55B6E00ACCC23 /* TextViewController.xib */; };
 		DC2B42121AD55B6E00ACCC23 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2B420E1AD55B6E00ACCC23 /* TextViewController.xib */; };
-		DC6FD5AD1AD2B17200BBEDBF /* libDigitalMtLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libDigitalMtLib.a */; };
+		DC6FD5AD1AD2B17200BBEDBF /* libMtZendoLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libMtZendoLib.a */; };
 		DCB381A4116CC070000BDFA2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A3116CC070000BDFA2 /* CoreFoundation.framework */; };
 		DCB381A6116CC070000BDFA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A5116CC070000BDFA2 /* CoreGraphics.framework */; };
 		DCB381A8116CC070000BDFA2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A7116CC070000BDFA2 /* OpenGLES.framework */; };
@@ -57,9 +57,9 @@
 
 /* Begin PBXFileReference section */
 		4A4680D2180259000040D1D2 /* ZendoDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZendoDefines.h; sourceTree = "<group>"; };
-		AA747D9E0F9514B9006C5449 /* DigitalMtLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigitalMtLib_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AA747D9E0F9514B9006C5449 /* MtZendoLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MtZendoLib_Prefix.pch; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D2AAC07E0554694100DB518D /* libDigitalMtLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDigitalMtLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC07E0554694100DB518D /* libMtZendoLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMtZendoLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC041C3617F97095006E35CD /* DLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLog.m; path = class/DLog.m; sourceTree = "<group>"; };
 		DC041C3717F97095006E35CD /* UIApplication+Dimension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+Dimension.m"; path = "class/UIApplication+Dimension.m"; sourceTree = "<group>"; };
 		DC041C3C17F970D8006E35CD /* DLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLog.h; path = class/DLog.h; sourceTree = "<group>"; };
@@ -110,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC6FD5AD1AD2B17200BBEDBF /* libDigitalMtLib.a in Frameworks */,
+				DC6FD5AD1AD2B17200BBEDBF /* libMtZendoLib.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,7 +127,7 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libDigitalMtLib.a */,
+				D2AAC07E0554694100DB518D /* libMtZendoLib.a */,
 				DCDA23081AC56E190024CCD9 /* LibDemo.app */,
 				DCDA23261AC56E190024CCD9 /* LibDemoTests.xctest */,
 			);
@@ -172,7 +172,7 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				AA747D9E0F9514B9006C5449 /* DigitalMtLib_Prefix.pch */,
+				AA747D9E0F9514B9006C5449 /* MtZendoLib_Prefix.pch */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -261,7 +261,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA747D9F0F9514B9006C5449 /* DigitalMtLib_Prefix.pch in Headers */,
+				AA747D9F0F9514B9006C5449 /* MtZendoLib_Prefix.pch in Headers */,
 				DC24E0CA1170D2CC002ADFF6 /* DigitalMt.h in Headers */,
 				DC041C4017F970D8006E35CD /* UIApplication+Dimension.h in Headers */,
 				DCDA23021AC56A910024CCD9 /* UIDevice+Info.h in Headers */,
@@ -274,9 +274,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D2AAC07D0554694100DB518D /* DigitalMtLib */ = {
+		D2AAC07D0554694100DB518D /* MtZendoLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "DigitalMtLib" */;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "MtZendoLib" */;
 			buildPhases = (
 				D2AAC07A0554694100DB518D /* Headers */,
 				D2AAC07B0554694100DB518D /* Sources */,
@@ -286,14 +286,14 @@
 			);
 			dependencies = (
 			);
-			name = DigitalMtLib;
+			name = MtZendoLib;
 			productName = DigitalMtLib;
-			productReference = D2AAC07E0554694100DB518D /* libDigitalMtLib.a */;
+			productReference = D2AAC07E0554694100DB518D /* libMtZendoLib.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		DCDA23071AC56E190024CCD9 /* LibDemo */ = {
+		DCDA23071AC56E190024CCD9 /* MtZendoDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DCDA232E1AC56E190024CCD9 /* Build configuration list for PBXNativeTarget "LibDemo" */;
+			buildConfigurationList = DCDA232E1AC56E190024CCD9 /* Build configuration list for PBXNativeTarget "MtZendoDemo" */;
 			buildPhases = (
 				DCDA23041AC56E190024CCD9 /* Sources */,
 				DCDA23051AC56E190024CCD9 /* Frameworks */,
@@ -304,7 +304,7 @@
 			dependencies = (
 				DC6FD5AC1AD2B15B00BBEDBF /* PBXTargetDependency */,
 			);
-			name = LibDemo;
+			name = MtZendoDemo;
 			productName = LibDemo;
 			productReference = DCDA23081AC56E190024CCD9 /* LibDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -345,7 +345,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "DigitalMtLib" */;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "MtZendoLib" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -361,8 +361,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2AAC07D0554694100DB518D /* DigitalMtLib */,
-				DCDA23071AC56E190024CCD9 /* LibDemo */,
+				D2AAC07D0554694100DB518D /* MtZendoLib */,
+				DCDA23071AC56E190024CCD9 /* MtZendoDemo */,
 				DCDA23251AC56E190024CCD9 /* LibDemoTests */,
 			);
 		};
@@ -428,12 +428,12 @@
 /* Begin PBXTargetDependency section */
 		DC6FD5AC1AD2B15B00BBEDBF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2AAC07D0554694100DB518D /* DigitalMtLib */;
+			target = D2AAC07D0554694100DB518D /* MtZendoLib */;
 			targetProxy = DC6FD5AB1AD2B15B00BBEDBF /* PBXContainerItemProxy */;
 		};
 		DCDA23281AC56E190024CCD9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DCDA23071AC56E190024CCD9 /* LibDemo */;
+			target = DCDA23071AC56E190024CCD9 /* MtZendoDemo */;
 			targetProxy = DCDA23271AC56E190024CCD9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -469,10 +469,10 @@
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = DigitalMtLib_Prefix.pch;
+				GCC_PREFIX_HEADER = MtZendoLib_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = DigitalMtLib;
+				PRODUCT_NAME = MtZendoLib;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -484,11 +484,11 @@
 				DSTROOT = /tmp/DigitalMtLib.dst;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = DigitalMtLib_Prefix.pch;
+				GCC_PREFIX_HEADER = MtZendoLib_Prefix.pch;
 				INSTALL_PATH = /usr/local/lib;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_NAME = DigitalMtLib;
+				PRODUCT_NAME = MtZendoLib;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 			};
@@ -693,7 +693,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "DigitalMtLib" */ = {
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "MtZendoLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB921F08733DC00010E9CD /* Debug */,
@@ -702,7 +702,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "DigitalMtLib" */ = {
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "MtZendoLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,
@@ -711,7 +711,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DCDA232E1AC56E190024CCD9 /* Build configuration list for PBXNativeTarget "LibDemo" */ = {
+		DCDA232E1AC56E190024CCD9 /* Build configuration list for PBXNativeTarget "MtZendoDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DCDA232F1AC56E190024CCD9 /* Debug */,
