@@ -1,7 +1,9 @@
 //
 //  CoreDataUtilities.h
-
+//  Created by Victor Chen on 8/9/12.
+//  Copyright (c) 2012 Mt Zendo Inc. All rights reserved.
 //
+
 #import <CoreData/CoreData.h>
 #import "NSManagedObject+Addition.h"
 
