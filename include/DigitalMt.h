@@ -12,8 +12,6 @@
 #import <QuartzCore/QuartzCore.h>
 #import <CoreGraphics/CoreGraphics.h>
 
-#import "ZendoDefines.h"
-#import "DMTInclude.h"
 #import "DLog.h"
 #import "UIApplication+Dimension.h"
 #import "UIDevice+Info.h"
