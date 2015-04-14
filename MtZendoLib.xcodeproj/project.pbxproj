@@ -44,7 +44,6 @@
 		DCDA231E1AC56E190024CCD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCDA231D1AC56E190024CCD9 /* Images.xcassets */; };
 		DCDA23211AC56E190024CCD9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCDA231F1AC56E190024CCD9 /* LaunchScreen.xib */; };
 		DCDA232D1AC56E190024CCD9 /* LibDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDA232C1AC56E190024CCD9 /* LibDemoTests.m */; };
-		DCF7D4E01178AEF8003F31C2 /* DMTInclude.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF7D4DF1178AEF8003F31C2 /* DMTInclude.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +64,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4A4680D2180259000040D1D2 /* ZendoDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZendoDefines.h; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* MtZendoLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MtZendoLib_Prefix.pch; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libMtZendoLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMtZendoLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +102,6 @@
 		DCDA23261AC56E190024CCD9 /* LibDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDA232B1AC56E190024CCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCDA232C1AC56E190024CCD9 /* LibDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibDemoTests.m; sourceTree = "<group>"; };
-		DCF7D4DF1178AEF8003F31C2 /* DMTInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMTInclude.h; path = include/DMTInclude.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,7 +175,7 @@
 			children = (
 				DCD92AA11ADD2840002CBEF7 /* CoreData */,
 				DC041C2F17F97070006E35CD /* Util */,
-				DCB38376116CD29F000BDFA2 /* Core */,
+				DCB38376116CD29F000BDFA2 /* Headers */,
 				DCB3820A116CC261000BDFA2 /* UI */,
 			);
 			name = Classes;
@@ -214,14 +211,12 @@
 			name = UI;
 			sourceTree = "<group>";
 		};
-		DCB38376116CD29F000BDFA2 /* Core */ = {
+		DCB38376116CD29F000BDFA2 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				DCF7D4DF1178AEF8003F31C2 /* DMTInclude.h */,
-				4A4680D2180259000040D1D2 /* ZendoDefines.h */,
 				DC24E0C91170D2CC002ADFF6 /* DigitalMt.h */,
 			);
-			name = Core;
+			name = Headers;
 			sourceTree = "<group>";
 		};
 		DCD92AA11ADD2840002CBEF7 /* CoreData */ = {
@@ -293,7 +288,6 @@
 				DC041C4017F970D8006E35CD /* UIApplication+Dimension.h in Headers */,
 				DCDA23021AC56A910024CCD9 /* UIDevice+Info.h in Headers */,
 				DC041C3F17F970D8006E35CD /* DLog.h in Headers */,
-				DCF7D4E01178AEF8003F31C2 /* DMTInclude.h in Headers */,
 				DCD92AAC1ADD284C002CBEF7 /* NSManagedObject+Addition.h in Headers */,
 				DCD92AA71ADD284C002CBEF7 /* CoreDataInclude.h in Headers */,
 				DCD92AA81ADD284C002CBEF7 /* CoreDataUtilities.h in Headers */,
