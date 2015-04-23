@@ -22,16 +22,16 @@ void _DebugLog(const char *file, int lineNumber, const char *funcName, NSString 
 	NSString *fileName=[[NSString stringWithUTF8String:file] lastPathComponent];
 	
 #ifdef LOG_VERBOSE
-	if (threadName) {
-		fprintf(stderr,"%s %s (%s:%d): %s",threadName,funcName,[fileName UTF8String],lineNumber,[body UTF8String]);
-	} else {
-		fprintf(stderr,"%p %s (%s:%d): %s",[NSThread currentThread],funcName,[fileName UTF8String],lineNumber,[body UTF8String]);
-	}
+    if (threadName) {
+        fprintf(stderr,"%s %s (%s, %d): %s",threadName,funcName,[fileName UTF8String],lineNumber,[body UTF8String]);
+    } else {
+        fprintf(stderr,"%p %s (%s, %d): %s",[NSThread currentThread],funcName,[fileName UTF8String],lineNumber,[body UTF8String]);
+    }
 #else
-	if(threadName)
-		fprintf(stderr,"%s (%s:%d): %s",threadName,[fileName UTF8String],lineNumber,[body UTF8String]);
-	else
-		fprintf(stderr,"(%s:%d): %s",[fileName UTF8String],lineNumber,[body UTF8String]);
+    if(threadName)
+        fprintf(stderr,"%s (%s, %s, %d): %s",threadName,[fileName UTF8String],funcName,lineNumber,[body UTF8String]);
+    else
+        fprintf(stderr,"(%s, %s, %d): %s",[fileName UTF8String],funcName,lineNumber,[body UTF8String]);
 #endif
 	
 //	[body release];	

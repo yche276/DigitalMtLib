@@ -90,7 +90,7 @@
 		DCD92AA61ADD284C002CBEF7 /* NSManagedObject+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSManagedObject+Addition.m"; path = "class/NSManagedObject+Addition.m"; sourceTree = "<group>"; };
 		DCDA23001AC56A910024CCD9 /* UIDevice+Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+Info.h"; path = "class/UIDevice+Info.h"; sourceTree = "<group>"; };
 		DCDA23011AC56A910024CCD9 /* UIDevice+Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+Info.m"; path = "class/UIDevice+Info.m"; sourceTree = "<group>"; };
-		DCDA23081AC56E190024CCD9 /* LibDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = LibDemo.app; path = MtZendoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDA23081AC56E190024CCD9 /* MtZendoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MtZendoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDA230B1AC56E190024CCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCDA230C1AC56E190024CCD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCDA230E1AC56E190024CCD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				D2AAC07E0554694100DB518D /* libMtZendoLib.a */,
-				DCDA23081AC56E190024CCD9 /* LibDemo.app */,
+				DCDA23081AC56E190024CCD9 /* MtZendoDemo.app */,
 				DCDA23261AC56E190024CCD9 /* LibDemoTests.xctest */,
 			);
 			name = Products;
@@ -330,7 +330,7 @@
 			);
 			name = MtZendoDemo;
 			productName = LibDemo;
-			productReference = DCDA23081AC56E190024CCD9 /* LibDemo.app */;
+			productReference = DCDA23081AC56E190024CCD9 /* MtZendoDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		DCDA23251AC56E190024CCD9 /* LibDemoTests */ = {
