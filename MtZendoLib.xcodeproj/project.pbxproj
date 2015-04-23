@@ -26,7 +26,6 @@
 		DCB381A8116CC070000BDFA2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A7116CC070000BDFA2 /* OpenGLES.framework */; };
 		DCB381AA116CC070000BDFA2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A9116CC070000BDFA2 /* QuartzCore.framework */; };
 		DCC00D8B11724F15000118D5 /* DMTCoverImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC00D8A11724F15000118D5 /* DMTCoverImageView.m */; };
-		DCD92AA71ADD284C002CBEF7 /* CoreDataInclude.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD92AA21ADD284C002CBEF7 /* CoreDataInclude.h */; };
 		DCD92AA81ADD284C002CBEF7 /* CoreDataUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD92AA31ADD284C002CBEF7 /* CoreDataUtilities.h */; };
 		DCD92AA91ADD284C002CBEF7 /* CoreDataUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD92AA41ADD284C002CBEF7 /* CoreDataUtilities.m */; };
 		DCD92AAA1ADD284C002CBEF7 /* CoreDataUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD92AA41ADD284C002CBEF7 /* CoreDataUtilities.m */; };
@@ -83,7 +82,6 @@
 		DCB381A7116CC070000BDFA2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		DCB381A9116CC070000BDFA2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		DCC00D8A11724F15000118D5 /* DMTCoverImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMTCoverImageView.m; path = class/DMTCoverImageView.m; sourceTree = "<group>"; };
-		DCD92AA21ADD284C002CBEF7 /* CoreDataInclude.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataInclude.h; path = class/CoreDataInclude.h; sourceTree = "<group>"; };
 		DCD92AA31ADD284C002CBEF7 /* CoreDataUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataUtilities.h; path = class/CoreDataUtilities.h; sourceTree = "<group>"; };
 		DCD92AA41ADD284C002CBEF7 /* CoreDataUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataUtilities.m; path = class/CoreDataUtilities.m; sourceTree = "<group>"; };
 		DCD92AA51ADD284C002CBEF7 /* NSManagedObject+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+Addition.h"; path = "class/NSManagedObject+Addition.h"; sourceTree = "<group>"; };
@@ -222,7 +220,6 @@
 		DCD92AA11ADD2840002CBEF7 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				DCD92AA21ADD284C002CBEF7 /* CoreDataInclude.h */,
 				DCD92AA31ADD284C002CBEF7 /* CoreDataUtilities.h */,
 				DCD92AA41ADD284C002CBEF7 /* CoreDataUtilities.m */,
 				DCD92AA51ADD284C002CBEF7 /* NSManagedObject+Addition.h */,
@@ -289,7 +286,6 @@
 				DCDA23021AC56A910024CCD9 /* UIDevice+Info.h in Headers */,
 				DC041C3F17F970D8006E35CD /* DLog.h in Headers */,
 				DCD92AAC1ADD284C002CBEF7 /* NSManagedObject+Addition.h in Headers */,
-				DCD92AA71ADD284C002CBEF7 /* CoreDataInclude.h in Headers */,
 				DCD92AA81ADD284C002CBEF7 /* CoreDataUtilities.h in Headers */,
 				DC041C4517F970E4006E35CD /* DMTCoverImageView.h in Headers */,
 			);
