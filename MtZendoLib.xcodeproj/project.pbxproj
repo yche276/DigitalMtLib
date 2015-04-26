@@ -21,6 +21,7 @@
 		DC2B42111AD55B6E00ACCC23 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2B420E1AD55B6E00ACCC23 /* TextViewController.xib */; };
 		DC2B42121AD55B6E00ACCC23 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2B420E1AD55B6E00ACCC23 /* TextViewController.xib */; };
 		DC6FD5AD1AD2B17200BBEDBF /* libMtZendoLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libMtZendoLib.a */; };
+		DCACCE821AE91C8F0052743E /* MTPath.m in Sources */ = {isa = PBXBuildFile; fileRef = DCACCE811AE91C8F0052743E /* MTPath.m */; };
 		DCB381A4116CC070000BDFA2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A3116CC070000BDFA2 /* CoreFoundation.framework */; };
 		DCB381A6116CC070000BDFA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A5116CC070000BDFA2 /* CoreGraphics.framework */; };
 		DCB381A8116CC070000BDFA2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A7116CC070000BDFA2 /* OpenGLES.framework */; };
@@ -77,6 +78,8 @@
 		DC2B420C1AD55B6E00ACCC23 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
 		DC2B420D1AD55B6E00ACCC23 /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 		DC2B420E1AD55B6E00ACCC23 /* TextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewController.xib; sourceTree = "<group>"; };
+		DCACCE811AE91C8F0052743E /* MTPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTPath.m; path = class/MTPath.m; sourceTree = "<group>"; };
+		DCACCE851AE91CA40052743E /* MTPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MTPath.h; path = class/MTPath.h; sourceTree = "<group>"; };
 		DCB381A3116CC070000BDFA2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		DCB381A5116CC070000BDFA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DCB381A7116CC070000BDFA2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -196,6 +199,8 @@
 				DC041C3717F97095006E35CD /* UIApplication+Dimension.m */,
 				DCDA23001AC56A910024CCD9 /* UIDevice+Info.h */,
 				DCDA23011AC56A910024CCD9 /* UIDevice+Info.m */,
+				DCACCE851AE91CA40052743E /* MTPath.h */,
+				DCACCE811AE91C8F0052743E /* MTPath.m */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -415,6 +420,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCACCE821AE91C8F0052743E /* MTPath.m in Sources */,
 				DCDA23031AC56A910024CCD9 /* UIDevice+Info.m in Sources */,
 				DCD92AAD1ADD284C002CBEF7 /* NSManagedObject+Addition.m in Sources */,
 				DCC00D8B11724F15000118D5 /* DMTCoverImageView.m in Sources */,

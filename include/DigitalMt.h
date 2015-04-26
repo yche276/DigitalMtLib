@@ -18,6 +18,12 @@
 #import "UIApplication+Dimension.h"
 #import "UIDevice+Info.h"
 
+/** Degrees to Radian **/
+#define degreesToRadians( degrees ) ( ( degrees ) / 180.0 * M_PI )
+
+/** Radians to Degrees **/
+#define radiansToDegrees( radians ) ( ( radians ) * ( 180.0 / M_PI ) )
+
 
 
 #define TT_RELEASE_SAFELY(__POINTER) { [__POINTER release]; __POINTER = nil; }

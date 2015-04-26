@@ -9,10 +9,10 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>LibDemo.xcscheme</key>
+		<key>MtZendoDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
