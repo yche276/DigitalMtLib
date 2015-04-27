@@ -20,8 +20,13 @@
 		DC2B42101AD55B6E00ACCC23 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2B420D1AD55B6E00ACCC23 /* TextViewController.m */; };
 		DC2B42111AD55B6E00ACCC23 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2B420E1AD55B6E00ACCC23 /* TextViewController.xib */; };
 		DC2B42121AD55B6E00ACCC23 /* TextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC2B420E1AD55B6E00ACCC23 /* TextViewController.xib */; };
+		DC5DF6FE1AEE0BBA00C002AF /* UIDevice+Info.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDA23011AC56A910024CCD9 /* UIDevice+Info.m */; };
+		DC5DF6FF1AEE0BBE00C002AF /* UIApplication+Dimension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC041C3717F97095006E35CD /* UIApplication+Dimension.m */; };
+		DC5DF7001AEE0BC100C002AF /* DLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DC041C3617F97095006E35CD /* DLog.m */; };
+		DC5DF7031AEE0BEE00C002AF /* NSFileManager+Path.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5DF7011AEE0BEE00C002AF /* NSFileManager+Path.h */; };
+		DC5DF7041AEE0BEE00C002AF /* NSFileManager+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5DF7021AEE0BEE00C002AF /* NSFileManager+Path.m */; };
+		DC5DF7051AEE0BEE00C002AF /* NSFileManager+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5DF7021AEE0BEE00C002AF /* NSFileManager+Path.m */; };
 		DC6FD5AD1AD2B17200BBEDBF /* libMtZendoLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libMtZendoLib.a */; };
-		DCACCE821AE91C8F0052743E /* MTPath.m in Sources */ = {isa = PBXBuildFile; fileRef = DCACCE811AE91C8F0052743E /* MTPath.m */; };
 		DCB381A4116CC070000BDFA2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A3116CC070000BDFA2 /* CoreFoundation.framework */; };
 		DCB381A6116CC070000BDFA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A5116CC070000BDFA2 /* CoreGraphics.framework */; };
 		DCB381A8116CC070000BDFA2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A7116CC070000BDFA2 /* OpenGLES.framework */; };
@@ -29,11 +34,9 @@
 		DCC00D8B11724F15000118D5 /* DMTCoverImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC00D8A11724F15000118D5 /* DMTCoverImageView.m */; };
 		DCD92AA81ADD284C002CBEF7 /* CoreDataUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD92AA31ADD284C002CBEF7 /* CoreDataUtilities.h */; };
 		DCD92AA91ADD284C002CBEF7 /* CoreDataUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD92AA41ADD284C002CBEF7 /* CoreDataUtilities.m */; };
-		DCD92AAA1ADD284C002CBEF7 /* CoreDataUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD92AA41ADD284C002CBEF7 /* CoreDataUtilities.m */; };
 		DCD92AAB1ADD284C002CBEF7 /* CoreDataUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD92AA41ADD284C002CBEF7 /* CoreDataUtilities.m */; };
 		DCD92AAC1ADD284C002CBEF7 /* NSManagedObject+Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD92AA51ADD284C002CBEF7 /* NSManagedObject+Addition.h */; };
 		DCD92AAD1ADD284C002CBEF7 /* NSManagedObject+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD92AA61ADD284C002CBEF7 /* NSManagedObject+Addition.m */; };
-		DCD92AAE1ADD284C002CBEF7 /* NSManagedObject+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD92AA61ADD284C002CBEF7 /* NSManagedObject+Addition.m */; };
 		DCD92AAF1ADD284C002CBEF7 /* NSManagedObject+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD92AA61ADD284C002CBEF7 /* NSManagedObject+Addition.m */; };
 		DCDA23021AC56A910024CCD9 /* UIDevice+Info.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDA23001AC56A910024CCD9 /* UIDevice+Info.h */; };
 		DCDA23031AC56A910024CCD9 /* UIDevice+Info.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDA23011AC56A910024CCD9 /* UIDevice+Info.m */; };
@@ -78,8 +81,8 @@
 		DC2B420C1AD55B6E00ACCC23 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
 		DC2B420D1AD55B6E00ACCC23 /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 		DC2B420E1AD55B6E00ACCC23 /* TextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewController.xib; sourceTree = "<group>"; };
-		DCACCE811AE91C8F0052743E /* MTPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MTPath.m; path = class/MTPath.m; sourceTree = "<group>"; };
-		DCACCE851AE91CA40052743E /* MTPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MTPath.h; path = class/MTPath.h; sourceTree = "<group>"; };
+		DC5DF7011AEE0BEE00C002AF /* NSFileManager+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+Path.h"; path = "class/NSFileManager+Path.h"; sourceTree = "<group>"; };
+		DC5DF7021AEE0BEE00C002AF /* NSFileManager+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+Path.m"; path = "class/NSFileManager+Path.m"; sourceTree = "<group>"; };
 		DCB381A3116CC070000BDFA2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		DCB381A5116CC070000BDFA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DCB381A7116CC070000BDFA2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -199,8 +202,8 @@
 				DC041C3717F97095006E35CD /* UIApplication+Dimension.m */,
 				DCDA23001AC56A910024CCD9 /* UIDevice+Info.h */,
 				DCDA23011AC56A910024CCD9 /* UIDevice+Info.m */,
-				DCACCE851AE91CA40052743E /* MTPath.h */,
-				DCACCE811AE91C8F0052743E /* MTPath.m */,
+				DC5DF7011AEE0BEE00C002AF /* NSFileManager+Path.h */,
+				DC5DF7021AEE0BEE00C002AF /* NSFileManager+Path.m */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				DC24E0CA1170D2CC002ADFF6 /* DigitalMt.h in Headers */,
 				DC041C4017F970D8006E35CD /* UIApplication+Dimension.h in Headers */,
 				DCDA23021AC56A910024CCD9 /* UIDevice+Info.h in Headers */,
+				DC5DF7031AEE0BEE00C002AF /* NSFileManager+Path.h in Headers */,
 				DC041C3F17F970D8006E35CD /* DLog.h in Headers */,
 				DCD92AAC1ADD284C002CBEF7 /* NSManagedObject+Addition.h in Headers */,
 				DCD92AA81ADD284C002CBEF7 /* CoreDataUtilities.h in Headers */,
@@ -420,9 +424,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCACCE821AE91C8F0052743E /* MTPath.m in Sources */,
 				DCDA23031AC56A910024CCD9 /* UIDevice+Info.m in Sources */,
 				DCD92AAD1ADD284C002CBEF7 /* NSManagedObject+Addition.m in Sources */,
+				DC5DF7041AEE0BEE00C002AF /* NSFileManager+Path.m in Sources */,
 				DCC00D8B11724F15000118D5 /* DMTCoverImageView.m in Sources */,
 				DCD92AA91ADD284C002CBEF7 /* CoreDataUtilities.m in Sources */,
 				DC041C3A17F97095006E35CD /* UIApplication+Dimension.m in Sources */,
@@ -435,8 +439,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC2B420F1AD55B6E00ACCC23 /* TextViewController.m in Sources */,
-				DCD92AAE1ADD284C002CBEF7 /* NSManagedObject+Addition.m in Sources */,
-				DCD92AAA1ADD284C002CBEF7 /* CoreDataUtilities.m in Sources */,
 				DC2B42031AD2B3F600ACCC23 /* RootViewController.m in Sources */,
 				DCDA23101AC56E190024CCD9 /* AppDelegate.m in Sources */,
 				DCDA23131AC56E190024CCD9 /* LibDemo.xcdatamodeld in Sources */,
@@ -449,9 +451,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCDA232D1AC56E190024CCD9 /* LibDemoTests.m in Sources */,
+				DC5DF6FF1AEE0BBE00C002AF /* UIApplication+Dimension.m in Sources */,
+				DC5DF6FE1AEE0BBA00C002AF /* UIDevice+Info.m in Sources */,
+				DC5DF7051AEE0BEE00C002AF /* NSFileManager+Path.m in Sources */,
 				DCD92AAF1ADD284C002CBEF7 /* NSManagedObject+Addition.m in Sources */,
 				DCD92AAB1ADD284C002CBEF7 /* CoreDataUtilities.m in Sources */,
 				DC2B42101AD55B6E00ACCC23 /* TextViewController.m in Sources */,
+				DC5DF7001AEE0BC100C002AF /* DLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
