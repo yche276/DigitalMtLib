@@ -17,6 +17,7 @@
 
 #import "UIApplication+Dimension.h"
 #import "UIDevice+Info.h"
+#import "NSFileManager+Path.h"
 
 /** Degrees to Radian **/
 #define degreesToRadians( degrees ) ( ( degrees ) / 180.0 * M_PI )
