@@ -8,11 +8,11 @@
 
 #import "RootViewController.h"
 #import "TextViewController.h"
-
-#import "DigitalMt.h"
+#import "ShapeViewController.h"
 
 @interface RootViewController ()
-
+@property (nonatomic, strong) NSArray *sectionTitles;
+@property (nonatomic, strong) NSArray *rowTitles;
 @end
 
 @implementation RootViewController
@@ -21,6 +21,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = @"Mt. Zendo";
+    self.sectionTitles = @[@"Device",
+                           @"Shape"];
+    
+    self.rowTitles = @[
+                       @[@"Infomation"],//section 1
+                       @[@"Hexagon",@"Oval",@"Star",@"Rectangle"],//section 2
+                       ];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -40,15 +47,48 @@
 
 #pragma mark -
 #pragma mark Table view data source
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    
+    
+    UIView *v = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, 15)];
+    v.layer.borderWidth = 0.4f;
+    v.layer.borderColor = [UIColor darkGrayColor].CGColor;
+    v.backgroundColor = [UIColor colorWithWhite:.5f alpha:0.35f];
+    v.layer.borderWidth = 0.4f;
+    v.layer.borderColor = [UIColor lightGrayColor].CGColor;
+    v.backgroundColor = [UIColor darkGrayColor];
+//    [UIColor colorWithWhite:1.0f alpha:0.8f];
+    
+    
+    UILabel *lbl1 = [[UILabel alloc] initWithFrame:CGRectMake(5, 0, tableView.bounds.size.width, 30)];
+    lbl1.textAlignment = NSTextAlignmentLeft;
+    lbl1.backgroundColor = [UIColor clearColor];
+    lbl1.text = [self.sectionTitles objectAtIndex:section];
+    lbl1.font = [UIFont boldSystemFontOfSize:15];
+    lbl1.textColor = [UIColor whiteColor];
+    lbl1.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+    [v addSubview:lbl1];
+    
+    
+    return v;
+    
+    
+}
+
+
+//- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+//    return [self.sectionTitles objectAtIndex:section];
+//}
+
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     // Return the number of sections.
-    return 1;
+    return self.sectionTitles.count;
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
-    return 1;
+    return [(NSArray *)[self.rowTitles objectAtIndex:section] count];
 }
 
 // Customize the appearance of table view cells.
@@ -62,18 +102,8 @@
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         cell.textLabel.font = [UIFont systemFontOfSize:16];
     }
-//    cell.textLabel.text = [NSString stringWithFormat:@"Cell %ld", (long)indexPath.row];
     
-    switch (indexPath.row) {
-        case 0:
-        {
-            cell.textLabel.text = NSLocalizedString(@"Device Infomation", @"");
-        }
-            break;
-            
-        default:
-            break;
-    }
+    cell.textLabel.text = [(NSArray *)[self.rowTitles objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
     
     return cell;
 }
@@ -87,25 +117,60 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
     
-    if (indexPath.row == 0) {
-        
-        UIDevice *dev =  [[UIDevice alloc] init];
-        NSString *strPlatform = [dev platformString];
-        NSLog(@"strPlatform = %@", strPlatform);
-        NSLog(@"description = %@", [dev description]);
-        
-        
-        if (dev.type == DEVICE_TYPE_IPAD) {
-            NSLog(@"DEVICE_TYPE_IPAD");
+    if (indexPath.section == 0) {
+        if (indexPath.row == 0) {
+            
+            UIDevice *dev =  [[UIDevice alloc] init];
+            NSString *strPlatform = [dev platformString];
+            NSLog(@"strPlatform = %@", strPlatform);
+            NSLog(@"description = %@", [dev description]);
+            
+            
+            if (dev.type == DEVICE_TYPE_IPAD) {
+                NSLog(@"DEVICE_TYPE_IPAD");
+            }
+            
+            TextViewController *controller = [[TextViewController alloc] initWithNibName:NSStringFromClass([TextViewController class]) bundle:nil];
+            controller.title = NSLocalizedString(@"Device Infomation", @"");
+            controller.textView.selectable = NO;
+            controller.textView.editable = NO;
+            [self.navigationController pushViewController:controller animated:YES];
         }
-        
-        TextViewController *controller = [[TextViewController alloc] initWithNibName:NSStringFromClass([TextViewController class]) bundle:nil];
-        controller.title = NSLocalizedString(@"Device Infomation", @"");
-        controller.textView.selectable = NO;
-        controller.textView.editable = NO;
-        [self.navigationController pushViewController:controller animated:YES];
     }
-    
+    else if (indexPath.section == 1){
+        switch (indexPath.row) {
+            case 0:
+            {
+                ShapeViewController *controller = [[ShapeViewController alloc] initWithNibName:NSStringFromClass([ShapeViewController class]) bundle:nil];
+                controller.type = OutlineTypeHexagon;
+                [self.navigationController pushViewController:controller animated:YES];
+            }
+                break;
+            case 1:
+            {
+                ShapeViewController *controller = [[ShapeViewController alloc] initWithNibName:NSStringFromClass([ShapeViewController class]) bundle:nil];
+                controller.type = OutlineTypeOval;
+                [self.navigationController pushViewController:controller animated:YES];
+            }
+                break;
+            case 2:
+            {
+                ShapeViewController *controller = [[ShapeViewController alloc] initWithNibName:NSStringFromClass([ShapeViewController class]) bundle:nil];
+                controller.type = OutlineTypeStar;
+                [self.navigationController pushViewController:controller animated:YES];
+            }
+                break;
+            case 3:
+            {
+                ShapeViewController *controller = [[ShapeViewController alloc] initWithNibName:NSStringFromClass([ShapeViewController class]) bundle:nil];
+                controller.type = OutlineTypeRectangle;
+                [self.navigationController pushViewController:controller animated:YES];
+            }
+                break;
+            default:
+                break;
+        }
+    }
 }
 
 //- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {

@@ -26,6 +26,13 @@
 		DC5DF7031AEE0BEE00C002AF /* NSFileManager+Path.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5DF7011AEE0BEE00C002AF /* NSFileManager+Path.h */; };
 		DC5DF7041AEE0BEE00C002AF /* NSFileManager+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5DF7021AEE0BEE00C002AF /* NSFileManager+Path.m */; };
 		DC5DF7051AEE0BEE00C002AF /* NSFileManager+Path.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5DF7021AEE0BEE00C002AF /* NSFileManager+Path.m */; };
+		DC5DF70B1AEE361F00C002AF /* MZShapeView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5DF7091AEE361F00C002AF /* MZShapeView.h */; };
+		DC5DF70C1AEE361F00C002AF /* MZShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5DF70A1AEE361F00C002AF /* MZShapeView.m */; };
+		DC5DF70D1AEE361F00C002AF /* MZShapeView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5DF70A1AEE361F00C002AF /* MZShapeView.m */; };
+		DC5DF71B1AEE44E400C002AF /* ShapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5DF7151AEE415D00C002AF /* ShapeViewController.m */; };
+		DC5DF71C1AEE44EA00C002AF /* ShapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC5DF7161AEE415D00C002AF /* ShapeViewController.xib */; };
+		DC5DF71D1AEE44FB00C002AF /* ShapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5DF7151AEE415D00C002AF /* ShapeViewController.m */; };
+		DC5DF71E1AEE44FE00C002AF /* ShapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC5DF7161AEE415D00C002AF /* ShapeViewController.xib */; };
 		DC6FD5AD1AD2B17200BBEDBF /* libMtZendoLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libMtZendoLib.a */; };
 		DCB381A4116CC070000BDFA2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A3116CC070000BDFA2 /* CoreFoundation.framework */; };
 		DCB381A6116CC070000BDFA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A5116CC070000BDFA2 /* CoreGraphics.framework */; };
@@ -83,6 +90,12 @@
 		DC2B420E1AD55B6E00ACCC23 /* TextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewController.xib; sourceTree = "<group>"; };
 		DC5DF7011AEE0BEE00C002AF /* NSFileManager+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+Path.h"; path = "class/NSFileManager+Path.h"; sourceTree = "<group>"; };
 		DC5DF7021AEE0BEE00C002AF /* NSFileManager+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+Path.m"; path = "class/NSFileManager+Path.m"; sourceTree = "<group>"; };
+		DC5DF7091AEE361F00C002AF /* MZShapeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZShapeView.h; path = class/MZShapeView.h; sourceTree = "<group>"; };
+		DC5DF70A1AEE361F00C002AF /* MZShapeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZShapeView.m; path = class/MZShapeView.m; sourceTree = "<group>"; };
+		DC5DF70E1AEE372600C002AF /* MtZendoLib.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MtZendoLib.pch; sourceTree = "<group>"; };
+		DC5DF7141AEE415D00C002AF /* ShapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeViewController.h; sourceTree = "<group>"; };
+		DC5DF7151AEE415D00C002AF /* ShapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeViewController.m; sourceTree = "<group>"; };
+		DC5DF7161AEE415D00C002AF /* ShapeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShapeViewController.xib; sourceTree = "<group>"; };
 		DCB381A3116CC070000BDFA2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		DCB381A5116CC070000BDFA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DCB381A7116CC070000BDFA2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -211,6 +224,8 @@
 		DCB3820A116CC261000BDFA2 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				DC5DF7091AEE361F00C002AF /* MZShapeView.h */,
+				DC5DF70A1AEE361F00C002AF /* MZShapeView.m */,
 				DC041C4217F970E4006E35CD /* DMTCoverImageView.h */,
 				DCC00D8A11724F15000118D5 /* DMTCoverImageView.m */,
 			);
@@ -246,6 +261,9 @@
 				DC2B420C1AD55B6E00ACCC23 /* TextViewController.h */,
 				DC2B420D1AD55B6E00ACCC23 /* TextViewController.m */,
 				DC2B420E1AD55B6E00ACCC23 /* TextViewController.xib */,
+				DC5DF7141AEE415D00C002AF /* ShapeViewController.h */,
+				DC5DF7151AEE415D00C002AF /* ShapeViewController.m */,
+				DC5DF7161AEE415D00C002AF /* ShapeViewController.xib */,
 				DCDA231A1AC56E190024CCD9 /* Main.storyboard */,
 				DCDA231D1AC56E190024CCD9 /* Images.xcassets */,
 				DCDA231F1AC56E190024CCD9 /* LaunchScreen.xib */,
@@ -259,6 +277,7 @@
 			isa = PBXGroup;
 			children = (
 				DCDA230B1AC56E190024CCD9 /* Info.plist */,
+				DC5DF70E1AEE372600C002AF /* MtZendoLib.pch */,
 				DCDA230C1AC56E190024CCD9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -295,6 +314,7 @@
 				DC5DF7031AEE0BEE00C002AF /* NSFileManager+Path.h in Headers */,
 				DC041C3F17F970D8006E35CD /* DLog.h in Headers */,
 				DCD92AAC1ADD284C002CBEF7 /* NSManagedObject+Addition.h in Headers */,
+				DC5DF70B1AEE361F00C002AF /* MZShapeView.h in Headers */,
 				DCD92AA81ADD284C002CBEF7 /* CoreDataUtilities.h in Headers */,
 				DC041C4517F970E4006E35CD /* DMTCoverImageView.h in Headers */,
 			);
@@ -406,6 +426,7 @@
 				DCDA23211AC56E190024CCD9 /* LaunchScreen.xib in Resources */,
 				DCDA231E1AC56E190024CCD9 /* Images.xcassets in Resources */,
 				DC2B42111AD55B6E00ACCC23 /* TextViewController.xib in Resources */,
+				DC5DF71C1AEE44EA00C002AF /* ShapeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +434,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5DF71E1AEE44FE00C002AF /* ShapeViewController.xib in Resources */,
 				DC2B42121AD55B6E00ACCC23 /* TextViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,6 +448,7 @@
 			files = (
 				DCDA23031AC56A910024CCD9 /* UIDevice+Info.m in Sources */,
 				DCD92AAD1ADD284C002CBEF7 /* NSManagedObject+Addition.m in Sources */,
+				DC5DF70C1AEE361F00C002AF /* MZShapeView.m in Sources */,
 				DC5DF7041AEE0BEE00C002AF /* NSFileManager+Path.m in Sources */,
 				DCC00D8B11724F15000118D5 /* DMTCoverImageView.m in Sources */,
 				DCD92AA91ADD284C002CBEF7 /* CoreDataUtilities.m in Sources */,
@@ -438,6 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5DF71B1AEE44E400C002AF /* ShapeViewController.m in Sources */,
 				DC2B420F1AD55B6E00ACCC23 /* TextViewController.m in Sources */,
 				DC2B42031AD2B3F600ACCC23 /* RootViewController.m in Sources */,
 				DCDA23101AC56E190024CCD9 /* AppDelegate.m in Sources */,
@@ -451,10 +475,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCDA232D1AC56E190024CCD9 /* LibDemoTests.m in Sources */,
+				DC5DF70D1AEE361F00C002AF /* MZShapeView.m in Sources */,
 				DC5DF6FF1AEE0BBE00C002AF /* UIApplication+Dimension.m in Sources */,
 				DC5DF6FE1AEE0BBA00C002AF /* UIDevice+Info.m in Sources */,
 				DC5DF7051AEE0BEE00C002AF /* NSFileManager+Path.m in Sources */,
 				DCD92AAF1ADD284C002CBEF7 /* NSManagedObject+Addition.m in Sources */,
+				DC5DF71D1AEE44FB00C002AF /* ShapeViewController.m in Sources */,
 				DCD92AAB1ADD284C002CBEF7 /* CoreDataUtilities.m in Sources */,
 				DC2B42101AD55B6E00ACCC23 /* TextViewController.m in Sources */,
 				DC5DF7001AEE0BC100C002AF /* DLog.m in Sources */,
@@ -585,6 +611,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PREFIX_HEADER = LibDemo/MtZendoLib.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -599,6 +626,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"$(inherited)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -627,6 +658,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = LibDemo/MtZendoLib.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -636,6 +668,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"$(inherited)",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -682,6 +718,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LibDemo.app/LibDemo";
 			};
@@ -722,6 +762,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LibDemo.app/LibDemo";
 				VALIDATE_PRODUCT = YES;

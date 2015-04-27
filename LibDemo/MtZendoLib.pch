@@ -1,0 +1,12 @@
+//
+//  MtZendoLib.pch
+//  MtZendoLib
+//
+//  Created by Victor Chen on 4/27/15.
+//  Copyright (c) 2015 Digital Mt. Inc. All rights reserved.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import "DigitalMt.h"
+#endif
