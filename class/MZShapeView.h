@@ -1,6 +1,6 @@
 //
 //  MZShapeView.h
-//  
+//  DigitalMtLib
 //
 //  Created by Victor Chen on 7/27/14.
 //  Copyright (c) 2014 Mt Zendo Inc. All rights reserved.

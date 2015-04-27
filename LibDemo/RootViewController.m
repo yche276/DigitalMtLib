@@ -9,6 +9,7 @@
 #import "RootViewController.h"
 #import "TextViewController.h"
 #import "ShapeViewController.h"
+#import "ProfileViewController.h"
 
 @interface RootViewController ()
 @property (nonatomic, strong) NSArray *sectionTitles;
@@ -22,11 +23,13 @@
     // Do any additional setup after loading the view.
     self.title = @"Mt. Zendo";
     self.sectionTitles = @[@"Device",
-                           @"Shape"];
+                           @"Shape View",
+                           @"User Interface"];
     
     self.rowTitles = @[
                        @[@"Infomation"],//section 1
                        @[@"Hexagon",@"Oval",@"Star",@"Rectangle"],//section 2
+                       @[@"Profile Photo View"],
                        ];
 }
 
@@ -117,8 +120,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     // Navigation logic may go here. Create and push another view controller.
     
-    if (indexPath.section == 0) {
-        if (indexPath.row == 0) {
+    if (indexPath.section == 0) {//Device
+        if (indexPath.row == 0) {//infromation
             
             UIDevice *dev =  [[UIDevice alloc] init];
             NSString *strPlatform = [dev platformString];
@@ -137,30 +140,30 @@
             [self.navigationController pushViewController:controller animated:YES];
         }
     }
-    else if (indexPath.section == 1){
+    else if (indexPath.section == 1){//shape view
         switch (indexPath.row) {
-            case 0:
+            case 0://Hexagon
             {
                 ShapeViewController *controller = [[ShapeViewController alloc] initWithNibName:NSStringFromClass([ShapeViewController class]) bundle:nil];
                 controller.type = OutlineTypeHexagon;
                 [self.navigationController pushViewController:controller animated:YES];
             }
                 break;
-            case 1:
+            case 1://Oval
             {
                 ShapeViewController *controller = [[ShapeViewController alloc] initWithNibName:NSStringFromClass([ShapeViewController class]) bundle:nil];
                 controller.type = OutlineTypeOval;
                 [self.navigationController pushViewController:controller animated:YES];
             }
                 break;
-            case 2:
+            case 2://Star
             {
                 ShapeViewController *controller = [[ShapeViewController alloc] initWithNibName:NSStringFromClass([ShapeViewController class]) bundle:nil];
                 controller.type = OutlineTypeStar;
                 [self.navigationController pushViewController:controller animated:YES];
             }
                 break;
-            case 3:
+            case 3://Rectangle
             {
                 ShapeViewController *controller = [[ShapeViewController alloc] initWithNibName:NSStringFromClass([ShapeViewController class]) bundle:nil];
                 controller.type = OutlineTypeRectangle;
@@ -168,8 +171,27 @@
             }
                 break;
             default:
+            {
+                
+            }
                 break;
-        }
+        }//end switch
+    }
+    else if (indexPath.section == 2){//user interface
+        switch (indexPath.row) {
+            case 0://Profile Photo View
+            {
+                ProfileViewController *controller = [[ProfileViewController alloc] initWithNibName:NSStringFromClass([ProfileViewController class]) bundle:nil];
+                [self.navigationController pushViewController:controller animated:YES];
+                
+            }
+                break;
+            default:
+            {
+                
+            }
+                break;
+        }//end switch
     }
 }
 

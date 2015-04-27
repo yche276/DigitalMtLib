@@ -1,6 +1,6 @@
 //
 //  MZShapeView.m
-//  
+//  DigitalMtLib
 //
 //  Created by Victor Chen on 7/27/14.
 //  Copyright (c) 2014 Mt Zendo Inc. All rights reserved.
@@ -27,7 +27,7 @@
         
         UILabel *lbl = [[UILabel alloc] initWithFrame:CGRectMake(0, (frame.size.height/2)-40, frame.size.width, 80)];
         lbl.translatesAutoresizingMaskIntoConstraints = NO;
-        lbl.text = @"Beijing";
+        lbl.text = @"Auckland";
         lbl.backgroundColor = [UIColor clearColor];
         lbl.textColor = [UIColor whiteColor];
         lbl.textAlignment = NSTextAlignmentCenter;

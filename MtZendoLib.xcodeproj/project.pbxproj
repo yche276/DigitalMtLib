@@ -33,6 +33,12 @@
 		DC5DF71C1AEE44EA00C002AF /* ShapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC5DF7161AEE415D00C002AF /* ShapeViewController.xib */; };
 		DC5DF71D1AEE44FB00C002AF /* ShapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5DF7151AEE415D00C002AF /* ShapeViewController.m */; };
 		DC5DF71E1AEE44FE00C002AF /* ShapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC5DF7161AEE415D00C002AF /* ShapeViewController.xib */; };
+		DC5DF7251AEE60D500C002AF /* MZProfilePhotoView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5DF7231AEE60D500C002AF /* MZProfilePhotoView.h */; };
+		DC5DF7261AEE60D500C002AF /* MZProfilePhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5DF7241AEE60D500C002AF /* MZProfilePhotoView.m */; };
+		DC5DF72B1AEE615F00C002AF /* ProfileViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5DF7281AEE615F00C002AF /* ProfileViewController.h */; };
+		DC5DF72F1AEE684600C002AF /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5DF7291AEE615F00C002AF /* ProfileViewController.m */; };
+		DC5DF7301AEE684900C002AF /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC5DF72A1AEE615F00C002AF /* ProfileViewController.xib */; };
+		DC5DF7311AEE6AA900C002AF /* MZProfilePhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC5DF7241AEE60D500C002AF /* MZProfilePhotoView.m */; };
 		DC6FD5AD1AD2B17200BBEDBF /* libMtZendoLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2AAC07E0554694100DB518D /* libMtZendoLib.a */; };
 		DCB381A4116CC070000BDFA2 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A3116CC070000BDFA2 /* CoreFoundation.framework */; };
 		DCB381A6116CC070000BDFA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A5116CC070000BDFA2 /* CoreGraphics.framework */; };
@@ -96,6 +102,11 @@
 		DC5DF7141AEE415D00C002AF /* ShapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShapeViewController.h; sourceTree = "<group>"; };
 		DC5DF7151AEE415D00C002AF /* ShapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShapeViewController.m; sourceTree = "<group>"; };
 		DC5DF7161AEE415D00C002AF /* ShapeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShapeViewController.xib; sourceTree = "<group>"; };
+		DC5DF7231AEE60D500C002AF /* MZProfilePhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZProfilePhotoView.h; path = class/MZProfilePhotoView.h; sourceTree = "<group>"; };
+		DC5DF7241AEE60D500C002AF /* MZProfilePhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZProfilePhotoView.m; path = class/MZProfilePhotoView.m; sourceTree = "<group>"; };
+		DC5DF7281AEE615F00C002AF /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		DC5DF7291AEE615F00C002AF /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		DC5DF72A1AEE615F00C002AF /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
 		DCB381A3116CC070000BDFA2 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		DCB381A5116CC070000BDFA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DCB381A7116CC070000BDFA2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -226,6 +237,8 @@
 			children = (
 				DC5DF7091AEE361F00C002AF /* MZShapeView.h */,
 				DC5DF70A1AEE361F00C002AF /* MZShapeView.m */,
+				DC5DF7231AEE60D500C002AF /* MZProfilePhotoView.h */,
+				DC5DF7241AEE60D500C002AF /* MZProfilePhotoView.m */,
 				DC041C4217F970E4006E35CD /* DMTCoverImageView.h */,
 				DCC00D8A11724F15000118D5 /* DMTCoverImageView.m */,
 			);
@@ -264,6 +277,9 @@
 				DC5DF7141AEE415D00C002AF /* ShapeViewController.h */,
 				DC5DF7151AEE415D00C002AF /* ShapeViewController.m */,
 				DC5DF7161AEE415D00C002AF /* ShapeViewController.xib */,
+				DC5DF7281AEE615F00C002AF /* ProfileViewController.h */,
+				DC5DF7291AEE615F00C002AF /* ProfileViewController.m */,
+				DC5DF72A1AEE615F00C002AF /* ProfileViewController.xib */,
 				DCDA231A1AC56E190024CCD9 /* Main.storyboard */,
 				DCDA231D1AC56E190024CCD9 /* Images.xcassets */,
 				DCDA231F1AC56E190024CCD9 /* LaunchScreen.xib */,
@@ -307,6 +323,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5DF7251AEE60D500C002AF /* MZProfilePhotoView.h in Headers */,
+				DC5DF72B1AEE615F00C002AF /* ProfileViewController.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* MtZendoLib_Prefix.pch in Headers */,
 				DC24E0CA1170D2CC002ADFF6 /* DigitalMt.h in Headers */,
 				DC041C4017F970D8006E35CD /* UIApplication+Dimension.h in Headers */,
@@ -422,6 +440,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC5DF7301AEE684900C002AF /* ProfileViewController.xib in Resources */,
 				DCDA231C1AC56E190024CCD9 /* Main.storyboard in Resources */,
 				DCDA23211AC56E190024CCD9 /* LaunchScreen.xib in Resources */,
 				DCDA231E1AC56E190024CCD9 /* Images.xcassets in Resources */,
@@ -447,6 +466,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCDA23031AC56A910024CCD9 /* UIDevice+Info.m in Sources */,
+				DC5DF7261AEE60D500C002AF /* MZProfilePhotoView.m in Sources */,
 				DCD92AAD1ADD284C002CBEF7 /* NSManagedObject+Addition.m in Sources */,
 				DC5DF70C1AEE361F00C002AF /* MZShapeView.m in Sources */,
 				DC5DF7041AEE0BEE00C002AF /* NSFileManager+Path.m in Sources */,
@@ -465,6 +485,7 @@
 				DC2B420F1AD55B6E00ACCC23 /* TextViewController.m in Sources */,
 				DC2B42031AD2B3F600ACCC23 /* RootViewController.m in Sources */,
 				DCDA23101AC56E190024CCD9 /* AppDelegate.m in Sources */,
+				DC5DF72F1AEE684600C002AF /* ProfileViewController.m in Sources */,
 				DCDA23131AC56E190024CCD9 /* LibDemo.xcdatamodeld in Sources */,
 				DCDA230D1AC56E190024CCD9 /* main.m in Sources */,
 			);
@@ -484,6 +505,7 @@
 				DCD92AAB1ADD284C002CBEF7 /* CoreDataUtilities.m in Sources */,
 				DC2B42101AD55B6E00ACCC23 /* TextViewController.m in Sources */,
 				DC5DF7001AEE0BC100C002AF /* DLog.m in Sources */,
+				DC5DF7311AEE6AA900C002AF /* MZProfilePhotoView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

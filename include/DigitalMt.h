@@ -19,6 +19,7 @@
 #import "UIDevice+Info.h"
 #import "NSFileManager+Path.h"
 #import "MZShapeView.h"
+#import "MZProfilePhotoView.h"
 
 /** Degrees to Radian **/
 #define degreesToRadians( degrees ) ( ( degrees ) / 180.0 * M_PI )

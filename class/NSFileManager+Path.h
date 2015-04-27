@@ -12,17 +12,52 @@
     
 }
 
+/**
+ URL of Documents directory
+ 
+ @return Documents directory URL
+ */
 + (NSURL *)documentsDirectoryURL;
+
+/**
+ String of Documents directory
+ 
+ @return Documents directory String
+ */
 + (NSString *)documentsDirectoryPath;
 
-
+/**
+ URL of Library directory
+ 
+ @return Library directory URL
+ */
 + (NSURL *)libraryDirectoryURL;
+
+/**
+ String of Library directory
+ 
+ @return Librar directory String
+ */
 + (NSString *)libraryDirectoryPath;
 
-
+/**
+ URL of Temporary directory
+ 
+ @return Temporary directory URL
+ */
 + (NSURL *)temporaryDirectoryURL;
+/**
+ String of Temporary directory
+ 
+ @return Temporary directory String
+ */
 + (NSString *)temporaryDirectoryPath;
 
+/**
+ Available disk space
+ 
+ @return the size of available disk space(MB)
+ */
 + (double)availableDiskSpace;
 
 /**
