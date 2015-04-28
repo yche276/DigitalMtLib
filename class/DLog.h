@@ -7,8 +7,18 @@
  *
  */
 
+typedef enum : NSInteger
+{
+    LOG_INFO = 0,
+    LOG_WARNING,
+    LOG_ERROR,
+    LOG_DEBUG
+}LOG_LEVEL;
+
+
 #ifdef DEBUG
-# define DLog(args...) _DebugLog(__FILE__,__LINE__,__PRETTY_FUNCTION__,args);
+
+# define DLog(level, args...) _DebugLog(level, __FILE__,__LINE__,__PRETTY_FUNCTION__,args);
 //# define DLog(args...) _DebugLog(__FILE__,__LINE__,__PRETTY_FUNCTION__,args);
 #else
 # define DLog(x...)
@@ -16,4 +26,4 @@
 
 #define DTrace DLog(@"")
 
-void _DebugLog(const char *file, int lineNumber, const char *funcName, NSString *format,...);
+void _DebugLog(LOG_LEVEL prmLevel, const char *file, int lineNumber, const char *funcName, NSString *format,...);

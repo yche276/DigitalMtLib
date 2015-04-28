@@ -233,7 +233,7 @@
             
         default:
         {
-            DLog(@"Wrong Type");
+            DLog(LOG_ERROR, @"Wrong Type");
         }
             break;
     }

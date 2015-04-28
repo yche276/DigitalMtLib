@@ -19,8 +19,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    
-    
+    DLog(LOG_INFO, @"LOG_INFOLOG_INFO");
+    DLog(LOG_WARNING, @"LOG_WARNINGLOG_WARNING");
+    DLog(LOG_ERROR, @"LOG_ERRORLOG_ERROR");
+    DLog(LOG_DEBUG, @"LOG_DEBUGLOG_DEBUG");
     return YES;
 }
 

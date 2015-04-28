@@ -6,32 +6,62 @@
  *  Copyright (c) 2013 Mt. Zendo Inc. All rights reserved.
  *
  */
-
+#import <UIKit/UIKit.h>
 #include "DLog.h"
 
-void _DebugLog(const char *file, int lineNumber, const char *funcName, NSString *format,...) {
+void _DebugLog(LOG_LEVEL prmLevel, const char *file, int lineNumber, const char *funcName, NSString *format,...) {
 	va_list ap;
 	
 	va_start (ap, format);
-	if (![format hasSuffix: @"\n"]) 
-		format = [format stringByAppendingString: @"\n"];
+//	if (![format hasSuffix: @"\n"]) 
+//		format = [format stringByAppendingString: @"\n"];
 	
 	NSString *body =  [[NSString alloc] initWithFormat: format arguments: ap];
 	va_end (ap);
 	const char *threadName = [[[NSThread currentThread] name] UTF8String];
-	NSString *fileName=[[NSString stringWithUTF8String:file] lastPathComponent];
+	NSString *fileName = [[NSString stringWithUTF8String:file] lastPathComponent];
+    NSString *logLevel = @"";
+    
+    switch (prmLevel) {
+        case LOG_INFO:
+        {
+            logLevel = @"INFO";
+        }
+            break;
+        case LOG_WARNING:
+        {
+            logLevel = @"WARNING";
+        }
+            break;
+        case LOG_ERROR:
+        {
+            logLevel = @"ERROR";
+        }
+            break;
+        case LOG_DEBUG:
+        {
+            logLevel = @"DEBUG";
+        }
+            break;
+        default:
+            break;
+    }
+    
+    
 	
 #ifdef LOG_VERBOSE
     if (threadName) {
-        fprintf(stderr,"%s %s (%s, %d): %s",threadName,funcName,[fileName UTF8String],lineNumber,[body UTF8String]);
+        fprintf(stderr,"%s: %s [%s %s %s, %d]\n",[logLevel UTF8String], [body UTF8String], threadName,funcName,[fileName UTF8String],lineNumber);
     } else {
-        fprintf(stderr,"%p %s (%s, %d): %s",[NSThread currentThread],funcName,[fileName UTF8String],lineNumber,[body UTF8String]);
+        fprintf(stderr,"%s: %s [%p %s %s, %d]\n",[logLevel UTF8String], [body UTF8String], [NSThread currentThread],funcName,[fileName UTF8String],lineNumber);
     }
 #else
-    if(threadName)
-        fprintf(stderr,"%s (%s, %s, %d): %s",threadName,[fileName UTF8String],funcName,lineNumber,[body UTF8String]);
-    else
-        fprintf(stderr,"(%s, %s, %d): %s",[fileName UTF8String],funcName,lineNumber,[body UTF8String]);
+    if(threadName) {
+        fprintf(stderr,"%s: %s (%s %s, %s, %d)\n",[logLevel UTF8String], [body UTF8String], threadName,[fileName UTF8String],funcName,lineNumber);
+    }
+    else{
+        fprintf(stderr,"%s: %s (%s, %s, %d)\n",[logLevel UTF8String], [body UTF8String], [fileName UTF8String],funcName,lineNumber);
+    }
 #endif
 	
 //	[body release];	
