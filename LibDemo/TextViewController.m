@@ -9,7 +9,11 @@
 #import "TextViewController.h"
 #import "UIDevice+Info.h"
 
-@interface TextViewController ()
+@interface TextViewController (){
+    
+}
+@property (strong, nonatomic) IBOutlet UITextView *textView;
+@property (strong, nonatomic) NSString *text;
 
 @end
 
@@ -18,8 +22,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    
-    
+    self.textView.selectable = NO;
+    self.textView.editable = NO;
+    self.textView.text = self.text;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,5 +41,10 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+-(void)setupText:(NSString *)prmText{
+    NSLog(@"prmText = %@", prmText);
+    self.text = prmText;
+}
 
 @end

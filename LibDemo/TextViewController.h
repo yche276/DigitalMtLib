@@ -13,6 +13,7 @@
 }
 
 
-@property (strong, nonatomic) IBOutlet UITextView *textView;
 
+
+-(void)setupText:(NSString *)prmText;
 @end

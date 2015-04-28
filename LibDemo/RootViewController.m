@@ -124,20 +124,12 @@
         if (indexPath.row == 0) {//infromation
             
             UIDevice *dev =  [[UIDevice alloc] init];
-            NSString *strPlatform = [dev platformString];
-            NSLog(@"strPlatform = %@", strPlatform);
-            NSLog(@"description = %@", [dev description]);
-            
-            
-            if (dev.type == DEVICE_TYPE_IPAD) {
-                NSLog(@"DEVICE_TYPE_IPAD");
-            }
-            
+           
             TextViewController *controller = [[TextViewController alloc] initWithNibName:NSStringFromClass([TextViewController class]) bundle:nil];
             controller.title = NSLocalizedString(@"Device Infomation", @"");
-            controller.textView.selectable = NO;
-            controller.textView.editable = NO;
+            [controller setupText:[dev description]];
             [self.navigationController pushViewController:controller animated:YES];
+            
         }
     }
     else if (indexPath.section == 1){//shape view
