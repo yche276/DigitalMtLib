@@ -14,8 +14,6 @@
 		DC041C3F17F970D8006E35CD /* DLog.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C3C17F970D8006E35CD /* DLog.h */; };
 		DC041C4017F970D8006E35CD /* UIApplication+Dimension.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C3D17F970D8006E35CD /* UIApplication+Dimension.h */; };
 		DC041C4517F970E4006E35CD /* DMTCoverImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C4217F970E4006E35CD /* DMTCoverImageView.h */; };
-		DC0D94CD1AF12676000AFF9E /* ZendoSwipeTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DC0D94CB1AF12676000AFF9E /* ZendoSwipeTableViewCell.h */; };
-		DC0D94CE1AF12676000AFF9E /* ZendoSwipeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0D94CC1AF12676000AFF9E /* ZendoSwipeTableViewCell.m */; };
 		DC24E0CA1170D2CC002ADFF6 /* DigitalMt.h in Headers */ = {isa = PBXBuildFile; fileRef = DC24E0C91170D2CC002ADFF6 /* DigitalMt.h */; };
 		DC2B42031AD2B3F600ACCC23 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2B42021AD2B3F600ACCC23 /* RootViewController.m */; };
 		DC2B420F1AD55B6E00ACCC23 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2B420D1AD55B6E00ACCC23 /* TextViewController.m */; };
@@ -90,8 +88,6 @@
 		DC041C3C17F970D8006E35CD /* DLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLog.h; path = class/DLog.h; sourceTree = "<group>"; };
 		DC041C3D17F970D8006E35CD /* UIApplication+Dimension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+Dimension.h"; path = "class/UIApplication+Dimension.h"; sourceTree = "<group>"; };
 		DC041C4217F970E4006E35CD /* DMTCoverImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMTCoverImageView.h; path = class/DMTCoverImageView.h; sourceTree = "<group>"; };
-		DC0D94CB1AF12676000AFF9E /* ZendoSwipeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZendoSwipeTableViewCell.h; path = class/ZendoSwipeTableViewCell.h; sourceTree = "<group>"; };
-		DC0D94CC1AF12676000AFF9E /* ZendoSwipeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZendoSwipeTableViewCell.m; path = class/ZendoSwipeTableViewCell.m; sourceTree = "<group>"; };
 		DC24E0C91170D2CC002ADFF6 /* DigitalMt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DigitalMt.h; path = include/DigitalMt.h; sourceTree = "<group>"; };
 		DC2B42011AD2B3F600ACCC23 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		DC2B42021AD2B3F600ACCC23 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
@@ -239,8 +235,6 @@
 		DCB3820A116CC261000BDFA2 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				DC0D94CB1AF12676000AFF9E /* ZendoSwipeTableViewCell.h */,
-				DC0D94CC1AF12676000AFF9E /* ZendoSwipeTableViewCell.m */,
 				DC5DF7091AEE361F00C002AF /* MZShapeView.h */,
 				DC5DF70A1AEE361F00C002AF /* MZShapeView.m */,
 				DC5DF7231AEE60D500C002AF /* MZProfilePhotoView.h */,
@@ -337,7 +331,6 @@
 				DCDA23021AC56A910024CCD9 /* UIDevice+Info.h in Headers */,
 				DC5DF7031AEE0BEE00C002AF /* NSFileManager+Path.h in Headers */,
 				DC041C3F17F970D8006E35CD /* DLog.h in Headers */,
-				DC0D94CD1AF12676000AFF9E /* ZendoSwipeTableViewCell.h in Headers */,
 				DCD92AAC1ADD284C002CBEF7 /* NSManagedObject+Addition.h in Headers */,
 				DC5DF70B1AEE361F00C002AF /* MZShapeView.h in Headers */,
 				DCD92AA81ADD284C002CBEF7 /* CoreDataUtilities.h in Headers */,
@@ -479,7 +472,6 @@
 				DC5DF7041AEE0BEE00C002AF /* NSFileManager+Path.m in Sources */,
 				DCC00D8B11724F15000118D5 /* DMTCoverImageView.m in Sources */,
 				DCD92AA91ADD284C002CBEF7 /* CoreDataUtilities.m in Sources */,
-				DC0D94CE1AF12676000AFF9E /* ZendoSwipeTableViewCell.m in Sources */,
 				DC041C3A17F97095006E35CD /* UIApplication+Dimension.m in Sources */,
 				DC041C3917F97095006E35CD /* DLog.m in Sources */,
 			);
