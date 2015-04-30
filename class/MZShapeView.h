@@ -37,4 +37,11 @@ typedef enum : NSInteger
 
 @property (nonatomic, assign) NSInteger strokeWidth;
 @property (nonatomic, assign) CGFloat cornerRadius;
+
+
+
+//Public Methods
+-(void)motionManagerUpdate:(BOOL)prmEnable;
+
+
 @end

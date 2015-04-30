@@ -13,7 +13,6 @@
 		DC041C3A17F97095006E35CD /* UIApplication+Dimension.m in Sources */ = {isa = PBXBuildFile; fileRef = DC041C3717F97095006E35CD /* UIApplication+Dimension.m */; };
 		DC041C3F17F970D8006E35CD /* DLog.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C3C17F970D8006E35CD /* DLog.h */; };
 		DC041C4017F970D8006E35CD /* UIApplication+Dimension.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C3D17F970D8006E35CD /* UIApplication+Dimension.h */; };
-		DC041C4517F970E4006E35CD /* DMTCoverImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = DC041C4217F970E4006E35CD /* DMTCoverImageView.h */; };
 		DC24E0CA1170D2CC002ADFF6 /* DigitalMt.h in Headers */ = {isa = PBXBuildFile; fileRef = DC24E0C91170D2CC002ADFF6 /* DigitalMt.h */; };
 		DC2B42031AD2B3F600ACCC23 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2B42021AD2B3F600ACCC23 /* RootViewController.m */; };
 		DC2B420F1AD55B6E00ACCC23 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC2B420D1AD55B6E00ACCC23 /* TextViewController.m */; };
@@ -44,7 +43,6 @@
 		DCB381A6116CC070000BDFA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A5116CC070000BDFA2 /* CoreGraphics.framework */; };
 		DCB381A8116CC070000BDFA2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A7116CC070000BDFA2 /* OpenGLES.framework */; };
 		DCB381AA116CC070000BDFA2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB381A9116CC070000BDFA2 /* QuartzCore.framework */; };
-		DCC00D8B11724F15000118D5 /* DMTCoverImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC00D8A11724F15000118D5 /* DMTCoverImageView.m */; };
 		DCD92AA81ADD284C002CBEF7 /* CoreDataUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD92AA31ADD284C002CBEF7 /* CoreDataUtilities.h */; };
 		DCD92AA91ADD284C002CBEF7 /* CoreDataUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD92AA41ADD284C002CBEF7 /* CoreDataUtilities.m */; };
 		DCD92AAB1ADD284C002CBEF7 /* CoreDataUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD92AA41ADD284C002CBEF7 /* CoreDataUtilities.m */; };
@@ -87,7 +85,6 @@
 		DC041C3717F97095006E35CD /* UIApplication+Dimension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+Dimension.m"; path = "class/UIApplication+Dimension.m"; sourceTree = "<group>"; };
 		DC041C3C17F970D8006E35CD /* DLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLog.h; path = class/DLog.h; sourceTree = "<group>"; };
 		DC041C3D17F970D8006E35CD /* UIApplication+Dimension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIApplication+Dimension.h"; path = "class/UIApplication+Dimension.h"; sourceTree = "<group>"; };
-		DC041C4217F970E4006E35CD /* DMTCoverImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMTCoverImageView.h; path = class/DMTCoverImageView.h; sourceTree = "<group>"; };
 		DC24E0C91170D2CC002ADFF6 /* DigitalMt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DigitalMt.h; path = include/DigitalMt.h; sourceTree = "<group>"; };
 		DC2B42011AD2B3F600ACCC23 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		DC2B42021AD2B3F600ACCC23 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
@@ -111,7 +108,6 @@
 		DCB381A5116CC070000BDFA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		DCB381A7116CC070000BDFA2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		DCB381A9116CC070000BDFA2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		DCC00D8A11724F15000118D5 /* DMTCoverImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMTCoverImageView.m; path = class/DMTCoverImageView.m; sourceTree = "<group>"; };
 		DCD92AA31ADD284C002CBEF7 /* CoreDataUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataUtilities.h; path = class/CoreDataUtilities.h; sourceTree = "<group>"; };
 		DCD92AA41ADD284C002CBEF7 /* CoreDataUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataUtilities.m; path = class/CoreDataUtilities.m; sourceTree = "<group>"; };
 		DCD92AA51ADD284C002CBEF7 /* NSManagedObject+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSManagedObject+Addition.h"; path = "class/NSManagedObject+Addition.h"; sourceTree = "<group>"; };
@@ -239,8 +235,6 @@
 				DC5DF70A1AEE361F00C002AF /* MZShapeView.m */,
 				DC5DF7231AEE60D500C002AF /* MZProfilePhotoView.h */,
 				DC5DF7241AEE60D500C002AF /* MZProfilePhotoView.m */,
-				DC041C4217F970E4006E35CD /* DMTCoverImageView.h */,
-				DCC00D8A11724F15000118D5 /* DMTCoverImageView.m */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -334,7 +328,6 @@
 				DCD92AAC1ADD284C002CBEF7 /* NSManagedObject+Addition.h in Headers */,
 				DC5DF70B1AEE361F00C002AF /* MZShapeView.h in Headers */,
 				DCD92AA81ADD284C002CBEF7 /* CoreDataUtilities.h in Headers */,
-				DC041C4517F970E4006E35CD /* DMTCoverImageView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +463,6 @@
 				DCD92AAD1ADD284C002CBEF7 /* NSManagedObject+Addition.m in Sources */,
 				DC5DF70C1AEE361F00C002AF /* MZShapeView.m in Sources */,
 				DC5DF7041AEE0BEE00C002AF /* NSFileManager+Path.m in Sources */,
-				DCC00D8B11724F15000118D5 /* DMTCoverImageView.m in Sources */,
 				DCD92AA91ADD284C002CBEF7 /* CoreDataUtilities.m in Sources */,
 				DC041C3A17F97095006E35CD /* UIApplication+Dimension.m in Sources */,
 				DC041C3917F97095006E35CD /* DLog.m in Sources */,
@@ -548,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/DigitalMtLib.dst;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -567,6 +560,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/DigitalMtLib.dst;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
