@@ -11,7 +11,6 @@
 
 void _DebugLog(LOG_LEVEL prmLevel, const char *file, int lineNumber, const char *funcName, NSString *format,...) {
 	va_list ap;
-	
 	va_start (ap, format);
 //	if (![format hasSuffix: @"\n"]) 
 //		format = [format stringByAppendingString: @"\n"];
