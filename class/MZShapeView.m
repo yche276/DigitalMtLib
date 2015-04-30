@@ -14,84 +14,97 @@
 @synthesize type;
 @synthesize titleLabel;
 
+- (void)setup{
+    [self setBackgroundColor:[UIColor clearColor]];
+    self.clipsToBounds = NO;
+    self.layer.masksToBounds = NO;
+    _drawInnerShadow = NO;
+    
+    
+    UILabel *lbl = [[UILabel alloc] initWithFrame:CGRectMake(0, (self.frame.size.height/2)-40, self.frame.size.width, 80)];
+    lbl.translatesAutoresizingMaskIntoConstraints = NO;
+    lbl.text = @"Text";
+    lbl.backgroundColor = [UIColor clearColor];
+    lbl.textColor = [UIColor whiteColor];
+    lbl.textAlignment = NSTextAlignmentCenter;
+    [self addSubview:lbl];
+    self.titleLabel = lbl;
+    
+    [self addConstraint:[NSLayoutConstraint constraintWithItem:lbl
+                                                     attribute:NSLayoutAttributeWidth
+                                                     relatedBy:NSLayoutRelationEqual
+                                                        toItem:self
+                                                     attribute:NSLayoutAttributeWidth
+                                                    multiplier:1
+                                                      constant:0]];
+    
+    [self addConstraint:[NSLayoutConstraint constraintWithItem:lbl
+                                                     attribute:NSLayoutAttributeHeight
+                                                     relatedBy:NSLayoutRelationEqual
+                                                        toItem:self
+                                                     attribute:NSLayoutAttributeHeight
+                                                    multiplier:1
+                                                      constant:0]];
+    
+    // Center horizontally
+    [self addConstraint:[NSLayoutConstraint constraintWithItem:lbl
+                                                     attribute:NSLayoutAttributeCenterX
+                                                     relatedBy:NSLayoutRelationEqual
+                                                        toItem:self
+                                                     attribute:NSLayoutAttributeCenterX
+                                                    multiplier:1.0
+                                                      constant:0.0]];
+    
+    // Center vertically
+    [self addConstraint:[NSLayoutConstraint constraintWithItem:lbl
+                                                     attribute:NSLayoutAttributeCenterY
+                                                     relatedBy:NSLayoutRelationEqual
+                                                        toItem:self
+                                                     attribute:NSLayoutAttributeCenterY
+                                                    multiplier:1.0
+                                                      constant:0.0]];
+    
+    
+    UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self
+                                                                                    action:@selector(onTapGesture:)];
+    [self addGestureRecognizer:tapRecognizer];
+    
+    CMMotionManager *mm = [[CMMotionManager alloc] init];
+    self.motionManager = mm;
+    self.motionManager.deviceMotionUpdateInterval = 1.0 / 60.0;
+    if (self.motionManager.deviceMotionAvailable) {
+        _startListening = NO;
+        [self.motionManager startDeviceMotionUpdatesToQueue:[NSOperationQueue currentQueue]
+                                                withHandler: ^(CMDeviceMotion *motion, NSError *error){
+                                                    dispatch_async(dispatch_get_main_queue(), ^{
+                                                        CMAttitude *attitude = motion.attitude;
+                                                        CGAffineTransform transform = CGAffineTransformRotate(CGAffineTransformIdentity, -attitude.roll);
+                                                        //                                                            NSLog(@"yaw=%f, pitch=%f, roll=%f", attitude.yaw, attitude.pitch, radiansToDegrees(attitude.roll));
+                                                        self.titleLabel.transform = transform;
+                                                    });
+                                                    _startListening = YES;
+                                                }];
+        
+    }
+}
+
+- (id)initWithCoder:(NSCoder *)aDecoder
+{
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        // Initialization code
+        [self setup];
+    }
+    
+    return self;
+}
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-        [self setBackgroundColor:[UIColor clearColor]];
-        self.clipsToBounds = NO;
-        self.layer.masksToBounds = NO;
-        _drawInnerShadow = NO;
-        
-        
-        UILabel *lbl = [[UILabel alloc] initWithFrame:CGRectMake(0, (frame.size.height/2)-40, frame.size.width, 80)];
-        lbl.translatesAutoresizingMaskIntoConstraints = NO;
-        lbl.text = @"Auckland";
-        lbl.backgroundColor = [UIColor clearColor];
-        lbl.textColor = [UIColor whiteColor];
-        lbl.textAlignment = NSTextAlignmentCenter;
-        [self addSubview:lbl];
-        self.titleLabel = lbl;
-        
-        [self addConstraint:[NSLayoutConstraint constraintWithItem:lbl
-                                                         attribute:NSLayoutAttributeWidth
-                                                         relatedBy:NSLayoutRelationEqual
-                                                            toItem:self
-                                                         attribute:NSLayoutAttributeWidth
-                                                        multiplier:1
-                                                          constant:0]];
-        
-        [self addConstraint:[NSLayoutConstraint constraintWithItem:lbl
-                                                         attribute:NSLayoutAttributeHeight
-                                                         relatedBy:NSLayoutRelationEqual
-                                                            toItem:self
-                                                         attribute:NSLayoutAttributeHeight
-                                                        multiplier:1
-                                                          constant:0]];
-        
-        // Center horizontally
-        [self addConstraint:[NSLayoutConstraint constraintWithItem:lbl
-                                                         attribute:NSLayoutAttributeCenterX
-                                                         relatedBy:NSLayoutRelationEqual
-                                                            toItem:self
-                                                         attribute:NSLayoutAttributeCenterX
-                                                        multiplier:1.0
-                                                          constant:0.0]];
-        
-        // Center vertically
-        [self addConstraint:[NSLayoutConstraint constraintWithItem:lbl
-                                                         attribute:NSLayoutAttributeCenterY
-                                                         relatedBy:NSLayoutRelationEqual
-                                                            toItem:self
-                                                         attribute:NSLayoutAttributeCenterY
-                                                        multiplier:1.0
-                                                          constant:0.0]];
-        
-        
-        UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self
-                                                                                        action:@selector(onTapGesture:)];
-        [self addGestureRecognizer:tapRecognizer];
-        
-        CMMotionManager *mm = [[CMMotionManager alloc] init];
-        self.motionManager = mm;
-        self.motionManager.deviceMotionUpdateInterval = 1.0 / 60.0;
-        if (self.motionManager.deviceMotionAvailable) {
-            _startListening = NO;
-            [self.motionManager startDeviceMotionUpdatesToQueue:[NSOperationQueue currentQueue]
-                                                    withHandler: ^(CMDeviceMotion *motion, NSError *error){
-                                                        dispatch_async(dispatch_get_main_queue(), ^{
-                                                            CMAttitude *attitude = motion.attitude;
-                                                            CGAffineTransform transform = CGAffineTransformRotate(CGAffineTransformIdentity, -attitude.roll);
-//                                                            NSLog(@"yaw=%f, pitch=%f, roll=%f", attitude.yaw, attitude.pitch, radiansToDegrees(attitude.roll));
-                                                            self.titleLabel.transform = transform;
-                                                        });
-                                                        _startListening = YES;
-                                                    }];
-            
-        }
-        
-             
+        [self setup];
     }
     return self;
 }
