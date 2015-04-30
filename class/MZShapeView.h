@@ -43,5 +43,7 @@ typedef enum : NSInteger
 //Public Methods
 -(void)motionManagerUpdate:(BOOL)prmEnable;
 
+//Gesture Methods
+-(void)onTapGesture:(UITapGestureRecognizer *)recognizer;
 
 @end

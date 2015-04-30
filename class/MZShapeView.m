@@ -21,12 +21,14 @@
     _drawInnerShadow = NO;
     
     
-    UILabel *lbl = [[UILabel alloc] initWithFrame:CGRectMake(0, (self.frame.size.height/2)-40, self.frame.size.width, 80)];
+    UILabel *lbl = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)];
+    //[[UILabel alloc] initWithFrame:CGRectMake(0, (self.frame.size.height/2)-40, self.frame.size.width, 80)];
     lbl.translatesAutoresizingMaskIntoConstraints = NO;
     lbl.text = @"Text";
     lbl.backgroundColor = [UIColor clearColor];
     lbl.textColor = [UIColor whiteColor];
     lbl.textAlignment = NSTextAlignmentCenter;
+    lbl.numberOfLines = 3;
     [self addSubview:lbl];
     self.titleLabel = lbl;
     

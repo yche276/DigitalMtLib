@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #include "DLog.h"
 
-void _DebugLog(LOG_LEVEL prmLevel, const char *file, int lineNumber, const char *funcName, NSString *format,...) {
+void _DebugLog(int prmLevel, const char *file, int lineNumber, const char *funcName, NSString *format,...) {
 	va_list ap;
 	va_start (ap, format);
 //	if (![format hasSuffix: @"\n"]) 
@@ -43,6 +43,9 @@ void _DebugLog(LOG_LEVEL prmLevel, const char *file, int lineNumber, const char 
         }
             break;
         default:
+        {
+            NSLog(@"sadfsfasfasdfasdf, %d", prmLevel);
+        }
             break;
     }
     
@@ -56,10 +59,10 @@ void _DebugLog(LOG_LEVEL prmLevel, const char *file, int lineNumber, const char 
     }
 #else
     if(threadName) {
-        fprintf(stderr,"%s: %s (%s %s, %s, %d)\n",[logLevel UTF8String], [body UTF8String], threadName,[fileName UTF8String],funcName,lineNumber);
+        fprintf(stderr,"(%s %s, %s, %d) %s: %s \n",threadName,[fileName UTF8String],funcName,lineNumber,[logLevel UTF8String], [body UTF8String]);
     }
     else{
-        fprintf(stderr,"%s: %s (%s, %s, %d)\n",[logLevel UTF8String], [body UTF8String], [fileName UTF8String],funcName,lineNumber);
+        fprintf(stderr,"(%s, %s, %d) %s: %s \n",[fileName UTF8String],funcName,lineNumber,[logLevel UTF8String], [body UTF8String]);
     }
 #endif
 	
