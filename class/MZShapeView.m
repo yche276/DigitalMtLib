@@ -15,7 +15,6 @@
 @synthesize titleLabel;
 
 -(void)dealloc{
-//    [super dealloc];
     [self.motionManager stopDeviceMotionUpdates];
 }
 
@@ -275,7 +274,7 @@
                                                     withHandler: ^(CMDeviceMotion *motion, NSError *error){
                                                         dispatch_async(dispatch_get_main_queue(), ^{
                                                             CMAttitude *attitude = motion.attitude;
-                                                            CGAffineTransform transform = CGAffineTransformRotate(CGAffineTransformIdentity, -attitude.roll);
+                                                            CGAffineTransform transform = CGAffineTransformRotate(CGAffineTransformIdentity, attitude.yaw);
 //                                                            NSLog(@"yaw=%f, pitch=%f, roll=%f", attitude.yaw, attitude.pitch, radiansToDegrees(attitude.roll));
                                                             self.titleLabel.transform = transform;
                                                         });
