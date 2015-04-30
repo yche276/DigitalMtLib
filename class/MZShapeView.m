@@ -14,6 +14,11 @@
 @synthesize type;
 @synthesize titleLabel;
 
+-(void)dealloc{
+//    [super dealloc];
+    [self.motionManager stopDeviceMotionUpdates];
+}
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -73,25 +78,7 @@
                                                                                         action:@selector(onTapGesture:)];
         [self addGestureRecognizer:tapRecognizer];
         
-        CMMotionManager *mm = [[CMMotionManager alloc] init];
-        self.motionManager = mm;
-        self.motionManager.deviceMotionUpdateInterval = 1.0 / 60.0;
-        if (self.motionManager.deviceMotionAvailable) {
-            _startListening = NO;
-            [self.motionManager startDeviceMotionUpdatesToQueue:[NSOperationQueue currentQueue]
-                                                    withHandler: ^(CMDeviceMotion *motion, NSError *error){
-                                                        dispatch_async(dispatch_get_main_queue(), ^{
-                                                            CMAttitude *attitude = motion.attitude;
-                                                            CGAffineTransform transform = CGAffineTransformRotate(CGAffineTransformIdentity, -attitude.roll);
-//                                                            NSLog(@"yaw=%f, pitch=%f, roll=%f", attitude.yaw, attitude.pitch, radiansToDegrees(attitude.roll));
-                                                            self.titleLabel.transform = transform;
-                                                        });
-                                                        _startListening = YES;
-                                                    }];
-            
-        }
         
-             
     }
     return self;
 }
@@ -273,6 +260,36 @@
 -(void)onTapGesture:(UITapGestureRecognizer *)recognizer{
     _drawInnerShadow = !_drawInnerShadow;
     [self setNeedsDisplay];
+}
+
+
+#pragma mark - Public Methods
+-(void)motionManagerUpdate:(BOOL)prmEnable{
+    if (prmEnable) {
+        CMMotionManager *mm = [[CMMotionManager alloc] init];
+        self.motionManager = mm;
+        self.motionManager.deviceMotionUpdateInterval = 1.0 / 60.0;
+        if (self.motionManager.deviceMotionAvailable) {
+            _startListening = NO;
+            [self.motionManager startDeviceMotionUpdatesToQueue:[NSOperationQueue currentQueue]
+                                                    withHandler: ^(CMDeviceMotion *motion, NSError *error){
+                                                        dispatch_async(dispatch_get_main_queue(), ^{
+                                                            CMAttitude *attitude = motion.attitude;
+                                                            CGAffineTransform transform = CGAffineTransformRotate(CGAffineTransformIdentity, -attitude.roll);
+//                                                            NSLog(@"yaw=%f, pitch=%f, roll=%f", attitude.yaw, attitude.pitch, radiansToDegrees(attitude.roll));
+                                                            self.titleLabel.transform = transform;
+                                                        });
+                                                        _startListening = YES;
+                                                    }];
+            
+        }
+
+    }
+    else{//disable
+        [self.motionManager stopDeviceMotionUpdates];
+        self.motionManager = nil;
+    }
+    
 }
 
 @end

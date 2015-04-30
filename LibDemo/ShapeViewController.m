@@ -86,6 +86,8 @@
             [v1 setNeedsDisplay];
             [self.view addSubview:v1];
             
+            [v1 motionManagerUpdate:YES];
+            
             // Width constraint, half of parent view width
             [self.view addConstraint:[NSLayoutConstraint constraintWithItem:v1
                                                                   attribute:NSLayoutAttributeWidth
