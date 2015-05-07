@@ -16,7 +16,7 @@
 
 #ifdef DEBUG
 
-# define DLog(level, args...) _DebugLog(level, __FILE__,__LINE__,__PRETTY_FUNCTION__,args);
+# define DLog(args...) _DebugLog(__FILE__,__LINE__,__PRETTY_FUNCTION__,args);
 //# define DLog(args...) _DebugLog(__FILE__,__LINE__,__PRETTY_FUNCTION__,args);
 #else
 # define DLog(x...)
@@ -24,4 +24,4 @@
 
 #define DTrace DLog(@"")
 
-void _DebugLog(int prmLevel, const char *file, int lineNumber, const char *funcName, NSString *format,...);
+void _DebugLog(const char *file, int lineNumber, const char *funcName, NSString *format,...);
