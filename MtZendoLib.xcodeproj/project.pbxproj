@@ -39,6 +39,9 @@
 		DCDA23021AC56A910024CCD9 /* UIDevice+Info.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDA23001AC56A910024CCD9 /* UIDevice+Info.h */; };
 		DCDA23031AC56A910024CCD9 /* UIDevice+Info.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDA23011AC56A910024CCD9 /* UIDevice+Info.m */; };
 		DCDA232D1AC56E190024CCD9 /* LibDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCDA232C1AC56E190024CCD9 /* LibDemoTests.m */; };
+		DCE51FD41AFF1079000F5763 /* UIColor+Helper.h in Headers */ = {isa = PBXBuildFile; fileRef = DCE51FD21AFF1079000F5763 /* UIColor+Helper.h */; };
+		DCE51FD51AFF1079000F5763 /* UIColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE51FD31AFF1079000F5763 /* UIColor+Helper.m */; };
+		DCE51FD61AFF1079000F5763 /* UIColor+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE51FD31AFF1079000F5763 /* UIColor+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +72,8 @@
 		DCDA23261AC56E190024CCD9 /* LibDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LibDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCDA232B1AC56E190024CCD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCDA232C1AC56E190024CCD9 /* LibDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LibDemoTests.m; sourceTree = "<group>"; };
+		DCE51FD21AFF1079000F5763 /* UIColor+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Helper.h"; path = "class/UIColor+Helper.h"; sourceTree = "<group>"; };
+		DCE51FD31AFF1079000F5763 /* UIColor+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Helper.m"; path = "class/UIColor+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +162,8 @@
 				DCDA23011AC56A910024CCD9 /* UIDevice+Info.m */,
 				DC5DF7011AEE0BEE00C002AF /* NSFileManager+Path.h */,
 				DC5DF7021AEE0BEE00C002AF /* NSFileManager+Path.m */,
+				DCE51FD21AFF1079000F5763 /* UIColor+Helper.h */,
+				DCE51FD31AFF1079000F5763 /* UIColor+Helper.m */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -224,6 +231,7 @@
 				DC041C3F17F970D8006E35CD /* DLog.h in Headers */,
 				DCD92AAC1ADD284C002CBEF7 /* NSManagedObject+Addition.h in Headers */,
 				DC5DF70B1AEE361F00C002AF /* MZShapeView.h in Headers */,
+				DCE51FD41AFF1079000F5763 /* UIColor+Helper.h in Headers */,
 				DCD92AA81ADD284C002CBEF7 /* CoreDataUtilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,6 +327,7 @@
 			files = (
 				DCDA23031AC56A910024CCD9 /* UIDevice+Info.m in Sources */,
 				DC5DF7261AEE60D500C002AF /* MZProfilePhotoView.m in Sources */,
+				DCE51FD51AFF1079000F5763 /* UIColor+Helper.m in Sources */,
 				DCD92AAD1ADD284C002CBEF7 /* NSManagedObject+Addition.m in Sources */,
 				DC5DF70C1AEE361F00C002AF /* MZShapeView.m in Sources */,
 				DC5DF7041AEE0BEE00C002AF /* NSFileManager+Path.m in Sources */,
@@ -333,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCDA232D1AC56E190024CCD9 /* LibDemoTests.m in Sources */,
+				DCE51FD61AFF1079000F5763 /* UIColor+Helper.m in Sources */,
 				DC5DF70D1AEE361F00C002AF /* MZShapeView.m in Sources */,
 				DC5DF6FF1AEE0BBE00C002AF /* UIApplication+Dimension.m in Sources */,
 				DC5DF6FE1AEE0BBA00C002AF /* UIDevice+Info.m in Sources */,
