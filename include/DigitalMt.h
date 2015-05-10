@@ -48,3 +48,9 @@
 #define IS_IPHONE_6_PLUS    (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 736.0f)
 
 
+#define mzcolor(prmRed, prmGreen, prmBlue, prmAlpha) [UIColor colorWithRed:(CGFloat)prmRed/255    \
+                                                                   green:(CGFloat)prmGreen/255  \
+                                                                    blue:(CGFloat)prmBlue/255   \
+                                                                   alpha:prmAlpha];             \
+
+
