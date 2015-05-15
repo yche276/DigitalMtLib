@@ -54,3 +54,14 @@
                                                                    alpha:prmAlpha]             \
 
 
+#define makeColor(prmRed, prmGreen, prmBlue, prmAlpha) [UIColor colorWithRed:(CGFloat)prmRed/255    \
+                                                                    green:(CGFloat)prmGreen/255  \
+                                                                    blue:(CGFloat)prmBlue/255   \
+                                                                    alpha:prmAlpha]             \
+
+
+
+
+
+
+
