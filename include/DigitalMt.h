@@ -40,8 +40,9 @@
 
 
 #define IS_IPAD             (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
-
 #define IS_IPHONE           (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+
+
 #define IS_IPHONE_4         (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 480.0f)
 #define IS_IPHONE_5         (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 568.0f)
 #define IS_IPHONE_6         (IS_IPHONE && [[UIScreen mainScreen] bounds].size.height == 667.0f)
@@ -54,10 +55,10 @@
                                                                    alpha:prmAlpha]             \
 
 
-#define makeColor(prmRed, prmGreen, prmBlue, prmAlpha) [UIColor colorWithRed:(CGFloat)prmRed/255    \
-                                                                    green:(CGFloat)prmGreen/255  \
-                                                                    blue:(CGFloat)prmBlue/255   \
-                                                                    alpha:prmAlpha]             \
+//#define makecolor(prmRed, prmGreen, prmBlue, prmAlpha) [UIColor colorWithRed:(CGFloat)prmRed/255    \
+//                                                                    green:(CGFloat)prmGreen/255  \
+//                                                                    blue:(CGFloat)prmBlue/255   \
+//                                                                    alpha:prmAlpha]             \
 
 
 
