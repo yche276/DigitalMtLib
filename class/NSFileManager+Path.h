@@ -73,5 +73,8 @@
  
  */
 + (NSArray *)filesOfDirectoryAtPath:(NSString *)strPath extensions:(NSArray *)aryExtensions;
-
+/*!
+    File path in mail bundle
+ */
++ (NSString *)mainBundlePathOfFileName:(NSString *)prmFilename type:(NSString *)prmType;
 @end
