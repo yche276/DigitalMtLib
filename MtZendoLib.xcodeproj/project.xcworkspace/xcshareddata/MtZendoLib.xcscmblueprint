@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5FA84BEB106DD8B8B60C41BE6201307DB882E652",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "75605BE34871488C747569117BB9ABD99CAC6878" : 0,
+    "5FA84BEB106DD8B8B60C41BE6201307DB882E652" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B12AD255-8553-41AA-B512-1E013642CF1C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "75605BE34871488C747569117BB9ABD99CAC6878" : "",
+    "5FA84BEB106DD8B8B60C41BE6201307DB882E652" : "ZendoLib\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MtZendoLib",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MtZendoLib.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yche276\/DigitalMtLib.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5FA84BEB106DD8B8B60C41BE6201307DB882E652"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/yche276\/paperboat-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "75605BE34871488C747569117BB9ABD99CAC6878"
+    }
+  ]
+}
