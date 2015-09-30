@@ -12,7 +12,7 @@
 
 + (NSString *)mainBundlePathOfFileName:(NSString *)prmFilename type:(NSString *)prmType{
     return [[NSBundle mainBundle] pathForResource:prmFilename
-                                           ofType:prmType]];
+                                           ofType:prmType];
 }
 
 + (NSURL *)documentsDirectoryURL{
