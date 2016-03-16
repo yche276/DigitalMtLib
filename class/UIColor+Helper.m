@@ -29,4 +29,41 @@
     
     return [UIColor colorWithRed:(float)r/255 green:(float)g/255 blue:(float)b/255 alpha:1.0f];
 }
+
+-(UIColor *)reverseColor{
+    CGColorRef oldCGColor = self.CGColor;
+    
+    int numberOfComponents = (int)CGColorGetNumberOfComponents(oldCGColor);
+    // can not invert - the only component is the alpha
+    if (numberOfComponents == 1) {
+        return [UIColor colorWithCGColor:oldCGColor];
+    }
+    
+    const CGFloat *oldComponentColors = CGColorGetComponents(oldCGColor);
+    CGFloat newComponentColors[numberOfComponents];
+    
+    int i = numberOfComponents - 1;
+    newComponentColors[i] = oldComponentColors[i]; // alpha
+    while (--i >= 0) {
+        newComponentColors[i] = 1 - oldComponentColors[i];
+    }
+    
+    CGColorRef newCGColor = CGColorCreate(CGColorGetColorSpace(oldCGColor), newComponentColors);
+    UIColor *newColor = [UIColor colorWithCGColor:newCGColor];
+    CGColorRelease(newCGColor);
+    
+    //=====For the GRAY colors 'Middle level colors'
+    CGFloat white = 0;
+    [self getWhite:&white alpha:nil];
+    
+    if(white>0.3 && white < 0.67)
+    {
+        if(white >= 0.5)
+            newColor = [UIColor darkGrayColor];
+        else if (white < 0.5)
+            newColor = [UIColor blackColor];
+        
+    }
+    return newColor;
+}
 @end

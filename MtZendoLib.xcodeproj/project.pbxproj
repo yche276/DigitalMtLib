@@ -375,6 +375,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = MtZendoLib;
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -393,6 +394,7 @@
 				PRODUCT_NAME = MtZendoLib;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};

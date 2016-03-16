@@ -20,4 +20,6 @@
 
 
 +(UIColor *)randomColor;
+
+-(UIColor *)reverseColor;
 @end
