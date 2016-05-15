@@ -11,7 +11,8 @@
 @implementation NSFileManager (Path)
 
 + (NSString *)mainBundlePathOfFileName:(NSString *)prmFilename type:(NSString *)prmType{
-    return [[NSBundle mainBundle] pathForResource:prmFilename ofType:prmType];
+    return [[NSBundle mainBundle] pathForResource:prmFilename
+                                           ofType:prmType];
 }
 
 + (NSURL *)documentsDirectoryURL{

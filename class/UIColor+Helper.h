@@ -17,4 +17,9 @@
           green:(CGFloat)prmGreen
            blue:(CGFloat)prmBlue
           alpha:(CGFloat)prmAlpha;
+
+
++(UIColor *)randomColor;
+
+-(UIColor *)reverseColor;
 @end
