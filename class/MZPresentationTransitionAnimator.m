@@ -36,13 +36,16 @@ static CGFloat const kDefaultPresentationAnimationDuration = 0.7f;
 }
 
 - (void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext {
-    if(_animatedView){
-        self.startFrame = _animatedView.frame;
-        self.startBackgroundColor = _animatedView.backgroundColor;
-    }
+//    if(_animatedView){
+//        self.startFrame = _animatedView.frame;
+//        self.startBackgroundColor = _animatedView.backgroundColor;
+//    }
     
     self.startFrame = _animatedView.frame;
-    self.startBackgroundColor = _animatedView.backgroundColor;
+    NSLog(@"frame = %@", NSStringFromCGRect(_animatedView.frame));
+    
+//    self.startBackgroundColor = [UIColor darkGrayColor];
+    //_animatedView.backgroundColor;
 
     
     UIView *animatedViewForTransition;
