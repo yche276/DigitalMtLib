@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7927B3751CEC09F40024AF85 /* MZDateSelectViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7927B3681CEC09F40024AF85 /* MZDateSelectViewController.h */; };
+		7927B3761CEC09F40024AF85 /* MZDateSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927B3691CEC09F40024AF85 /* MZDateSelectViewController.m */; };
+		7927B3771CEC09F40024AF85 /* MZDateSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927B3691CEC09F40024AF85 /* MZDateSelectViewController.m */; };
+		7927B3781CEC09F40024AF85 /* MZDateSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7927B36A1CEC09F40024AF85 /* MZDateSelectViewController.xib */; };
+		7927B3791CEC09F40024AF85 /* MZDateTimeCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7927B36B1CEC09F40024AF85 /* MZDateTimeCollectionView.h */; };
+		7927B37A1CEC09F40024AF85 /* MZDateTimeCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927B36C1CEC09F40024AF85 /* MZDateTimeCollectionView.m */; };
+		7927B37B1CEC09F40024AF85 /* MZDateTimeCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927B36C1CEC09F40024AF85 /* MZDateTimeCollectionView.m */; };
+		7927B37C1CEC09F40024AF85 /* MZDateTimeCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 7927B36D1CEC09F40024AF85 /* MZDateTimeCollectionViewCell.h */; };
+		7927B37D1CEC09F40024AF85 /* MZDateTimeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927B36E1CEC09F40024AF85 /* MZDateTimeCollectionViewCell.m */; };
+		7927B37E1CEC09F40024AF85 /* MZDateTimeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927B36E1CEC09F40024AF85 /* MZDateTimeCollectionViewCell.m */; };
+		7927B37F1CEC09F40024AF85 /* MZDateTimeCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7927B36F1CEC09F40024AF85 /* MZDateTimeCollectionViewCell.xib */; };
+		7927B3801CEC09F40024AF85 /* MZDateTimeCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7927B3701CEC09F40024AF85 /* MZDateTimeCollectionViewLayout.h */; };
+		7927B3811CEC09F40024AF85 /* MZDateTimeCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927B3711CEC09F40024AF85 /* MZDateTimeCollectionViewLayout.m */; };
+		7927B3821CEC09F40024AF85 /* MZDateTimeCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927B3711CEC09F40024AF85 /* MZDateTimeCollectionViewLayout.m */; };
+		7927B3831CEC09F40024AF85 /* MZTimeSelectViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7927B3721CEC09F40024AF85 /* MZTimeSelectViewController.h */; };
+		7927B3841CEC09F40024AF85 /* MZTimeSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927B3731CEC09F40024AF85 /* MZTimeSelectViewController.m */; };
+		7927B3851CEC09F40024AF85 /* MZTimeSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7927B3731CEC09F40024AF85 /* MZTimeSelectViewController.m */; };
+		7927B3861CEC09F40024AF85 /* MZTimeSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7927B3741CEC09F40024AF85 /* MZTimeSelectViewController.xib */; };
 		79D6F3F81CE719BD00ACB8BE /* MZDismissalTransitionAnimatior.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D6F3F31CE719BD00ACB8BE /* MZDismissalTransitionAnimatior.h */; };
 		79D6F3F91CE719BD00ACB8BE /* MZDismissalTransitionAnimatior.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D6F3F41CE719BD00ACB8BE /* MZDismissalTransitionAnimatior.m */; };
 		79D6F3FA1CE719BD00ACB8BE /* MZDismissalTransitionAnimatior.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D6F3F41CE719BD00ACB8BE /* MZDismissalTransitionAnimatior.m */; };
@@ -51,6 +69,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7927B3681CEC09F40024AF85 /* MZDateSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZDateSelectViewController.h; path = class/MZDateSelectViewController.h; sourceTree = "<group>"; };
+		7927B3691CEC09F40024AF85 /* MZDateSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZDateSelectViewController.m; path = class/MZDateSelectViewController.m; sourceTree = "<group>"; };
+		7927B36A1CEC09F40024AF85 /* MZDateSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MZDateSelectViewController.xib; path = class/MZDateSelectViewController.xib; sourceTree = "<group>"; };
+		7927B36B1CEC09F40024AF85 /* MZDateTimeCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZDateTimeCollectionView.h; path = class/MZDateTimeCollectionView.h; sourceTree = "<group>"; };
+		7927B36C1CEC09F40024AF85 /* MZDateTimeCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZDateTimeCollectionView.m; path = class/MZDateTimeCollectionView.m; sourceTree = "<group>"; };
+		7927B36D1CEC09F40024AF85 /* MZDateTimeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZDateTimeCollectionViewCell.h; path = class/MZDateTimeCollectionViewCell.h; sourceTree = "<group>"; };
+		7927B36E1CEC09F40024AF85 /* MZDateTimeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZDateTimeCollectionViewCell.m; path = class/MZDateTimeCollectionViewCell.m; sourceTree = "<group>"; };
+		7927B36F1CEC09F40024AF85 /* MZDateTimeCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MZDateTimeCollectionViewCell.xib; path = class/MZDateTimeCollectionViewCell.xib; sourceTree = "<group>"; };
+		7927B3701CEC09F40024AF85 /* MZDateTimeCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZDateTimeCollectionViewLayout.h; path = class/MZDateTimeCollectionViewLayout.h; sourceTree = "<group>"; };
+		7927B3711CEC09F40024AF85 /* MZDateTimeCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZDateTimeCollectionViewLayout.m; path = class/MZDateTimeCollectionViewLayout.m; sourceTree = "<group>"; };
+		7927B3721CEC09F40024AF85 /* MZTimeSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZTimeSelectViewController.h; path = class/MZTimeSelectViewController.h; sourceTree = "<group>"; };
+		7927B3731CEC09F40024AF85 /* MZTimeSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZTimeSelectViewController.m; path = class/MZTimeSelectViewController.m; sourceTree = "<group>"; };
+		7927B3741CEC09F40024AF85 /* MZTimeSelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MZTimeSelectViewController.xib; path = class/MZTimeSelectViewController.xib; sourceTree = "<group>"; };
 		79D6F3F11CE719BC00ACB8BE /* MtZendoLib-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MtZendoLib-Bridging-Header.h"; sourceTree = "<group>"; };
 		79D6F3F21CE719BC00ACB8BE /* LibDemoTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LibDemoTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		79D6F3F31CE719BD00ACB8BE /* MZDismissalTransitionAnimatior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZDismissalTransitionAnimatior.h; path = class/MZDismissalTransitionAnimatior.h; sourceTree = "<group>"; };
@@ -163,6 +194,26 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
+		7927B3871CEC09F70024AF85 /* DateTimeSelector */ = {
+			isa = PBXGroup;
+			children = (
+				7927B3681CEC09F40024AF85 /* MZDateSelectViewController.h */,
+				7927B3691CEC09F40024AF85 /* MZDateSelectViewController.m */,
+				7927B36A1CEC09F40024AF85 /* MZDateSelectViewController.xib */,
+				7927B36B1CEC09F40024AF85 /* MZDateTimeCollectionView.h */,
+				7927B36C1CEC09F40024AF85 /* MZDateTimeCollectionView.m */,
+				7927B36D1CEC09F40024AF85 /* MZDateTimeCollectionViewCell.h */,
+				7927B36E1CEC09F40024AF85 /* MZDateTimeCollectionViewCell.m */,
+				7927B36F1CEC09F40024AF85 /* MZDateTimeCollectionViewCell.xib */,
+				7927B3701CEC09F40024AF85 /* MZDateTimeCollectionViewLayout.h */,
+				7927B3711CEC09F40024AF85 /* MZDateTimeCollectionViewLayout.m */,
+				7927B3721CEC09F40024AF85 /* MZTimeSelectViewController.h */,
+				7927B3731CEC09F40024AF85 /* MZTimeSelectViewController.m */,
+				7927B3741CEC09F40024AF85 /* MZTimeSelectViewController.xib */,
+			);
+			name = DateTimeSelector;
+			sourceTree = "<group>";
+		};
 		DC041C2F17F97070006E35CD /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +234,7 @@
 		DCB3820A116CC261000BDFA2 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				7927B3871CEC09F70024AF85 /* DateTimeSelector */,
 				79D6F3F31CE719BD00ACB8BE /* MZDismissalTransitionAnimatior.h */,
 				79D6F3F41CE719BD00ACB8BE /* MZDismissalTransitionAnimatior.m */,
 				79D6F3F51CE719BD00ACB8BE /* MZPresentationTransitionAnimator.h */,
@@ -240,19 +292,24 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7927B3791CEC09F40024AF85 /* MZDateTimeCollectionView.h in Headers */,
 				DC5DF7251AEE60D500C002AF /* MZProfilePhotoView.h in Headers */,
 				79D6F3FB1CE719BD00ACB8BE /* MZPresentationTransitionAnimator.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* MtZendoLib_Prefix.pch in Headers */,
 				DC24E0CA1170D2CC002ADFF6 /* DigitalMt.h in Headers */,
 				DC041C4017F970D8006E35CD /* UIApplication+Dimension.h in Headers */,
 				DCDA23021AC56A910024CCD9 /* UIDevice+Info.h in Headers */,
+				7927B3831CEC09F40024AF85 /* MZTimeSelectViewController.h in Headers */,
+				7927B3751CEC09F40024AF85 /* MZDateSelectViewController.h in Headers */,
 				DC5DF7031AEE0BEE00C002AF /* NSFileManager+Path.h in Headers */,
 				DC041C3F17F970D8006E35CD /* DLog.h in Headers */,
 				DCD92AAC1ADD284C002CBEF7 /* NSManagedObject+Addition.h in Headers */,
 				DC5DF70B1AEE361F00C002AF /* MZShapeView.h in Headers */,
+				7927B3801CEC09F40024AF85 /* MZDateTimeCollectionViewLayout.h in Headers */,
 				DCE51FD41AFF1079000F5763 /* UIColor+Helper.h in Headers */,
 				79D6F3F81CE719BD00ACB8BE /* MZDismissalTransitionAnimatior.h in Headers */,
 				DCD92AA81ADD284C002CBEF7 /* CoreDataUtilities.h in Headers */,
+				7927B37C1CEC09F40024AF85 /* MZDateTimeCollectionViewCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +393,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7927B37F1CEC09F40024AF85 /* MZDateTimeCollectionViewCell.xib in Resources */,
+				7927B3781CEC09F40024AF85 /* MZDateSelectViewController.xib in Resources */,
+				7927B3861CEC09F40024AF85 /* MZTimeSelectViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,14 +409,19 @@
 				DCDA23031AC56A910024CCD9 /* UIDevice+Info.m in Sources */,
 				DC5DF7261AEE60D500C002AF /* MZProfilePhotoView.m in Sources */,
 				79D6F3F91CE719BD00ACB8BE /* MZDismissalTransitionAnimatior.m in Sources */,
+				7927B3761CEC09F40024AF85 /* MZDateSelectViewController.m in Sources */,
 				DCE51FD51AFF1079000F5763 /* UIColor+Helper.m in Sources */,
+				7927B37A1CEC09F40024AF85 /* MZDateTimeCollectionView.m in Sources */,
 				DCD92AAD1ADD284C002CBEF7 /* NSManagedObject+Addition.m in Sources */,
 				DC5DF70C1AEE361F00C002AF /* MZShapeView.m in Sources */,
 				DC5DF7041AEE0BEE00C002AF /* NSFileManager+Path.m in Sources */,
 				DCD92AA91ADD284C002CBEF7 /* CoreDataUtilities.m in Sources */,
+				7927B37D1CEC09F40024AF85 /* MZDateTimeCollectionViewCell.m in Sources */,
 				DC041C3A17F97095006E35CD /* UIApplication+Dimension.m in Sources */,
+				7927B3841CEC09F40024AF85 /* MZTimeSelectViewController.m in Sources */,
 				DC041C3917F97095006E35CD /* DLog.m in Sources */,
 				79D6F3FC1CE719BD00ACB8BE /* MZPresentationTransitionAnimator.m in Sources */,
+				7927B3811CEC09F40024AF85 /* MZDateTimeCollectionViewLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,15 +432,20 @@
 				DCDA232D1AC56E190024CCD9 /* LibDemoTests.m in Sources */,
 				DCE51FD61AFF1079000F5763 /* UIColor+Helper.m in Sources */,
 				DC5DF70D1AEE361F00C002AF /* MZShapeView.m in Sources */,
+				7927B3771CEC09F40024AF85 /* MZDateSelectViewController.m in Sources */,
 				DC5DF6FF1AEE0BBE00C002AF /* UIApplication+Dimension.m in Sources */,
 				DC5DF6FE1AEE0BBA00C002AF /* UIDevice+Info.m in Sources */,
 				DC5DF7051AEE0BEE00C002AF /* NSFileManager+Path.m in Sources */,
 				79D6F3FD1CE719BD00ACB8BE /* MZPresentationTransitionAnimator.m in Sources */,
+				7927B3821CEC09F40024AF85 /* MZDateTimeCollectionViewLayout.m in Sources */,
 				DCD92AAF1ADD284C002CBEF7 /* NSManagedObject+Addition.m in Sources */,
 				79D6F3FA1CE719BD00ACB8BE /* MZDismissalTransitionAnimatior.m in Sources */,
+				7927B37B1CEC09F40024AF85 /* MZDateTimeCollectionView.m in Sources */,
 				DCD92AAB1ADD284C002CBEF7 /* CoreDataUtilities.m in Sources */,
 				DC5DF7001AEE0BC100C002AF /* DLog.m in Sources */,
 				DC5DF7311AEE6AA900C002AF /* MZProfilePhotoView.m in Sources */,
+				7927B3851CEC09F40024AF85 /* MZTimeSelectViewController.m in Sources */,
+				7927B37E1CEC09F40024AF85 /* MZDateTimeCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
