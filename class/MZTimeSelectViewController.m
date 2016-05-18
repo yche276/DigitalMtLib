@@ -109,13 +109,13 @@ static NSString *_minutehCellIdentifier = @"MINUTE_CELL";
     if (collectionView == self.hourCollectionView) {
         cell = (MZDateTimeCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:_hourCellIdentifier
                                                                                          forIndexPath:indexPath];
-        cell.titleLabel.text = [NSString stringWithFormat:@"%ld", indexPath.row+1];
+        cell.titleLabel.text = [NSString stringWithFormat:@"%ld", (unsigned long)indexPath.row+1];
 
     }
     else if (collectionView == self.minutesCollectionView){
         cell = (MZDateTimeCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:_minutehCellIdentifier
                                                                                          forIndexPath:indexPath];
-        cell.titleLabel.text = [NSString stringWithFormat:@"%ld", indexPath.row+1];
+        cell.titleLabel.text = [NSString stringWithFormat:@"%ld", (unsigned long)indexPath.row+1];
       
     }
     cell.titleLabel.font = [UIFont systemFontOfSize:self.labelFontSize];

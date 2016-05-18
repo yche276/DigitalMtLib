@@ -196,7 +196,7 @@ static NSString *_dayCellIdentifier = @"DAY_CELL";
     if (collectionView == self.yearCollectionView) {
         cell = (MZDateTimeCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:_yearCellIdentifier
                                                                                          forIndexPath:indexPath];
-        cell.titleLabel.text = [NSString stringWithFormat:@"%ld", self.startYear+indexPath.row];
+        cell.titleLabel.text = [NSString stringWithFormat:@"%ld", (unsigned long)self.startYear+indexPath.row];
 //        if (indexPath == self.currentYearIndexPath) {
 //            cell.titleLabel.textColor = kPinkColor;
 //            
@@ -220,7 +220,7 @@ static NSString *_dayCellIdentifier = @"DAY_CELL";
         cell = (MZDateTimeCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:_dayCellIdentifier
                                                                                          forIndexPath:indexPath];
         
-        cell.titleLabel.text = [NSString stringWithFormat:@"%ld", indexPath.row+1];
+        cell.titleLabel.text = [NSString stringWithFormat:@"%ld", (unsigned long)indexPath.row+1];
 //        if (indexPath == self.currentDayIndexPath) {
 //            cell.titleLabel.textColor = kPinkColor;
 //        }
