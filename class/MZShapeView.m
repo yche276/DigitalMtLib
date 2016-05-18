@@ -8,6 +8,8 @@
 
 #import "MZShapeView.h"
 
+
+
 @implementation MZShapeView
 @synthesize motionManager;
 @synthesize strokeColor;
