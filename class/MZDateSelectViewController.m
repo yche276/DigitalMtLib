@@ -5,12 +5,12 @@
 //  Created by Chen Yue on 7/02/16.
 //  Copyright © 2016 Chen Yue. All rights reserved.
 //
-#define mzcolor(prmRed, prmGreen, prmBlue, prmAlpha) [UIColor colorWithRed:(CGFloat)prmRed/255    \
+#define MTZ_COLOR(prmRed, prmGreen, prmBlue, prmAlpha) [UIColor colorWithRed:(CGFloat)prmRed/255    \
                                 green:(CGFloat)prmGreen/255  \
                                 blue:(CGFloat)prmBlue/255   \
                                 alpha:prmAlpha]             \
 
-#define kPinkColor          mzcolor(224, 96, 108, 1.0f)
+#define kPinkColor          MTZ_COLOR(224, 96, 108, 1.0f)
 
 #import "MZDateSelectViewController.h"
 #import "MZDateTimeCollectionViewCell.h"
@@ -59,9 +59,9 @@ static NSString *_dayCellIdentifier = @"DAY_CELL";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.view.backgroundColor = mzcolor(45, 55, 77, 1.0f);
+    self.view.backgroundColor = MTZ_COLOR(45, 55, 77, 1.0f);
 //    self.navigationController.navigationBar.barStyle = UIStatusBarStyleLightContent; 
-//    [self.navigationController.navigationBar setBarTintColor:mzcolor(45, 55, 77, 1.0f)];
+//    [self.navigationController.navigationBar setBarTintColor:MTZ_COLOR(45, 55, 77, 1.0f)];
     [self setNeedsStatusBarAppearanceUpdate];
     
     self.title = @"SELECT DATE";
