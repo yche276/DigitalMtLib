@@ -282,6 +282,10 @@
 
 
 #pragma mark - Public Methods
+-(void)enableShadow:(BOOL)prmEnable{
+    _drawInnerShadow = prmEnable;
+}
+
 -(void)motionManagerUpdate:(BOOL)prmEnable{
     if (prmEnable) {
         CMMotionManager *mm = [[CMMotionManager alloc] init];
