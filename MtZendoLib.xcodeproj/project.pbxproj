@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7998B9CF1F596FD600A86886 /* MZDismissalTransitionAnimatior.h in Headers */ = {isa = PBXBuildFile; fileRef = 7998B9CB1F596FD600A86886 /* MZDismissalTransitionAnimatior.h */; };
+		7998B9D01F596FD600A86886 /* MZDismissalTransitionAnimatior.m in Sources */ = {isa = PBXBuildFile; fileRef = 7998B9CC1F596FD600A86886 /* MZDismissalTransitionAnimatior.m */; };
+		7998B9D11F596FD600A86886 /* MZPresentationTransitionAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7998B9CD1F596FD600A86886 /* MZPresentationTransitionAnimator.h */; };
+		7998B9D21F596FD600A86886 /* MZPresentationTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7998B9CE1F596FD600A86886 /* MZPresentationTransitionAnimator.m */; };
 		AA747D9F0F9514B9006C5449 /* MtZendoLib_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* MtZendoLib_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 		DC041C3917F97095006E35CD /* DLog.m in Sources */ = {isa = PBXBuildFile; fileRef = DC041C3617F97095006E35CD /* DLog.m */; };
@@ -45,6 +49,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7998B9CB1F596FD600A86886 /* MZDismissalTransitionAnimatior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZDismissalTransitionAnimatior.h; path = class/MZDismissalTransitionAnimatior.h; sourceTree = "<group>"; };
+		7998B9CC1F596FD600A86886 /* MZDismissalTransitionAnimatior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZDismissalTransitionAnimatior.m; path = class/MZDismissalTransitionAnimatior.m; sourceTree = "<group>"; };
+		7998B9CD1F596FD600A86886 /* MZPresentationTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MZPresentationTransitionAnimator.h; path = class/MZPresentationTransitionAnimator.h; sourceTree = "<group>"; };
+		7998B9CE1F596FD600A86886 /* MZPresentationTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MZPresentationTransitionAnimator.m; path = class/MZPresentationTransitionAnimator.m; sourceTree = "<group>"; };
 		AA747D9E0F9514B9006C5449 /* MtZendoLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MtZendoLib_Prefix.pch; sourceTree = "<group>"; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D2AAC07E0554694100DB518D /* libMtZendoLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMtZendoLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +183,10 @@
 				DC5DF70A1AEE361F00C002AF /* MZShapeView.m */,
 				DC5DF7231AEE60D500C002AF /* MZProfilePhotoView.h */,
 				DC5DF7241AEE60D500C002AF /* MZProfilePhotoView.m */,
+				7998B9CB1F596FD600A86886 /* MZDismissalTransitionAnimatior.h */,
+				7998B9CC1F596FD600A86886 /* MZDismissalTransitionAnimatior.m */,
+				7998B9CD1F596FD600A86886 /* MZPresentationTransitionAnimator.h */,
+				7998B9CE1F596FD600A86886 /* MZPresentationTransitionAnimator.m */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -223,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC5DF7251AEE60D500C002AF /* MZProfilePhotoView.h in Headers */,
+				7998B9D11F596FD600A86886 /* MZPresentationTransitionAnimator.h in Headers */,
 				AA747D9F0F9514B9006C5449 /* MtZendoLib_Prefix.pch in Headers */,
 				DC24E0CA1170D2CC002ADFF6 /* DigitalMt.h in Headers */,
 				DC041C4017F970D8006E35CD /* UIApplication+Dimension.h in Headers */,
@@ -232,6 +245,7 @@
 				DCD92AAC1ADD284C002CBEF7 /* NSManagedObject+Addition.h in Headers */,
 				DC5DF70B1AEE361F00C002AF /* MZShapeView.h in Headers */,
 				DCE51FD41AFF1079000F5763 /* UIColor+Helper.h in Headers */,
+				7998B9CF1F596FD600A86886 /* MZDismissalTransitionAnimatior.h in Headers */,
 				DCD92AA81ADD284C002CBEF7 /* CoreDataUtilities.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,6 +341,7 @@
 			files = (
 				DCDA23031AC56A910024CCD9 /* UIDevice+Info.m in Sources */,
 				DC5DF7261AEE60D500C002AF /* MZProfilePhotoView.m in Sources */,
+				7998B9D01F596FD600A86886 /* MZDismissalTransitionAnimatior.m in Sources */,
 				DCE51FD51AFF1079000F5763 /* UIColor+Helper.m in Sources */,
 				DCD92AAD1ADD284C002CBEF7 /* NSManagedObject+Addition.m in Sources */,
 				DC5DF70C1AEE361F00C002AF /* MZShapeView.m in Sources */,
@@ -334,6 +349,7 @@
 				DCD92AA91ADD284C002CBEF7 /* CoreDataUtilities.m in Sources */,
 				DC041C3A17F97095006E35CD /* UIApplication+Dimension.m in Sources */,
 				DC041C3917F97095006E35CD /* DLog.m in Sources */,
+				7998B9D21F596FD600A86886 /* MZPresentationTransitionAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
