@@ -8,12 +8,12 @@
 
 #import "MZTimeSelectViewController.h"
 
-#define mzcolor(prmRed, prmGreen, prmBlue, prmAlpha) [UIColor colorWithRed:(CGFloat)prmRed/255    \
+#define MTZ_COLOR(prmRed, prmGreen, prmBlue, prmAlpha) [UIColor colorWithRed:(CGFloat)prmRed/255    \
 green:(CGFloat)prmGreen/255  \
 blue:(CGFloat)prmBlue/255   \
 alpha:prmAlpha]             \
 
-#define kPinkColor          mzcolor(224, 96, 108, 1.0f)
+#define kPinkColor          MTZ_COLOR(224, 96, 108, 1.0f)
 
 static NSString *_hourCellIdentifier = @"HOUR_CELL";
 static NSString *_minutehCellIdentifier = @"MINUTE_CELL";
@@ -42,7 +42,7 @@ static NSString *_minutehCellIdentifier = @"MINUTE_CELL";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.view.backgroundColor = mzcolor(45, 55, 77, 1.0f);
+    self.view.backgroundColor = MTZ_COLOR(45, 55, 77, 1.0f);
     
     self.title = @"SELECT TIME";
     self.edgesForExtendedLayout = UIRectEdgeNone;
@@ -109,13 +109,13 @@ static NSString *_minutehCellIdentifier = @"MINUTE_CELL";
     if (collectionView == self.hourCollectionView) {
         cell = (MZDateTimeCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:_hourCellIdentifier
                                                                                          forIndexPath:indexPath];
-        cell.titleLabel.text = [NSString stringWithFormat:@"%ld", indexPath.row+1];
+        cell.titleLabel.text = [NSString stringWithFormat:@"%ld", (unsigned long)indexPath.row+1];
 
     }
     else if (collectionView == self.minutesCollectionView){
         cell = (MZDateTimeCollectionViewCell *)[collectionView dequeueReusableCellWithReuseIdentifier:_minutehCellIdentifier
                                                                                          forIndexPath:indexPath];
-        cell.titleLabel.text = [NSString stringWithFormat:@"%ld", indexPath.row+1];
+        cell.titleLabel.text = [NSString stringWithFormat:@"%ld", (unsigned long)indexPath.row+1];
       
     }
     cell.titleLabel.font = [UIFont systemFontOfSize:self.labelFontSize];

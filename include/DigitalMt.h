@@ -65,7 +65,7 @@
  Make UIColor object 
  Input RGB and Alpha value, integer 0 to 255 integer
  */
-#define mzcolor(prmRed, prmGreen, prmBlue, prmAlpha) [UIColor colorWithRed:(CGFloat)prmRed/255    \
+#define MTZ_COLOR(prmRed, prmGreen, prmBlue, prmAlpha) [UIColor colorWithRed:(CGFloat)prmRed/255    \
                                                                    green:(CGFloat)prmGreen/255  \
                                                                     blue:(CGFloat)prmBlue/255   \
                                                                    alpha:prmAlpha]             \

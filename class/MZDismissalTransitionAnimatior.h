@@ -19,6 +19,7 @@
 @property (nonatomic) CGRect startFrame;
 @property (nonatomic) UIColor *startBackgroundColor;
 
+//
 
 - (instancetype)initWithAnimatedView:(UIView *)animatedView;
 
